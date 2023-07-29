@@ -64,21 +64,21 @@ function readTrainingData(filename) {
 //   return morseCode.split("").map((char) => (char === "." ? 1 : 0));
 // }
 
-function writeTrainingData(filename, data) {
-  try {
-    // // convert the dot and dashes into 0 or 1
-    // const convertedData = data.map((entry) => ({
-    //   input: convertToBinary(entry.input),
-    //   output: entry.output,
-    // }));
+// function writeTrainingData(filename, data) {
+//   try {
+//     // // convert the dot and dashes into 0 or 1
+//     // const convertedData = data.map((entry) => ({
+//     //   input: convertToBinary(entry.input),
+//     //   output: entry.output,
+//     // }));
 
-    const jsonData = JSON.stringify(data, null, 2);
-    fs.writeFileSync(filename, jsonData, "utf-8");
-    console.log("Success write");
-  } catch (err) {
-    console.error("Error ", err);
-  }
-}
+//     const jsonData = JSON.stringify(data, null, 2);
+//     fs.writeFileSync(filename, jsonData, "utf-8");
+//     console.log("Success write");
+//   } catch (err) {
+//     console.error("Error ", err);
+//   }
+// }
 
 // const oldData = readtraingData("trainOnThis.Json");
 
@@ -92,20 +92,6 @@ function writeTrainingData(filename, data) {
 // writeTrainingData("trainOnThis.Json", oldData);
 
 // console.log(readtraingData("trainOnThis.Json"));
-
-const trainingData = readTrainingData("dataset.json");
-console.log(trainingData);
-const network = new brain.recurrent.LSTM();
-
-network.train(trainingData, {
-  iterations: 1000,
-  //   logPeriod: 1000,
-  errorThresh: 0.005,
-  // log: (stats) => console.log(stats),
-});
-
-// test
-// console.log("Value: ", network.run("- --- .. -. .. -. --."));
 
 // create random words, pass it onto the words->morse converter, push the results into dataset
 const randomWords = (length) => {
@@ -155,20 +141,91 @@ const textToMorse = (text) => {
 
   text = text.toUpperCase();
   // text = text.replace(/\s/g, "/");
-  console.log(text);
+  // console.log(text);
 
   // Step 3: Convert the Text to Morse Code
   const words = text.split(" ");
-  console.log(words);
+  // console.log(words);
   const morseCodeArray = words.map((word) =>
     word
       .split("")
       .map((char) => morseCodeDictionary[char] || char)
       .join(" ")
   );
-  console.log(morseCodeArray);
+  // console.log(morseCodeArray);
   // Step 4: Return the Morse Code
   return morseCodeArray.join(" / ");
 };
 
-console.log(textToMorse("Hello World"));
+// console.log(textToMorse("Hello World"));
+
+const getTrainingData = () => {
+  let rand = "";
+  let range = Math.floor(Math.random() * 5) + 1;
+  // currently let us train over 1 word
+  range = 1;
+  for (let i = 0; i < range; i++) {
+    let wordLength = Math.floor(Math.random() * 10) + 1;
+
+    // 1 word with length 2
+    wordLength = 2;
+    rand += randomWords(wordLength);
+    if (i + 1 < range) {
+      rand += " ";
+    }
+  }
+  const randMorse = textToMorse(rand);
+  return { input: randMorse, output: rand };
+};
+
+const setTrainingData = () => {
+  try {
+    const data = getTrainingData();
+    const existingData = fs.readFileSync("dataset.json", "utf-8");
+    let parsedExistingData = JSON.parse(existingData);
+
+    parsedExistingData.push(data);
+    const jsonData = JSON.stringify(parsedExistingData, null, 2);
+    fs.writeFileSync("dataset.json", jsonData, "utf-8");
+
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
+  }
+};
+
+// setTrainingData();
+
+const callNeural = (morseCode1) => {
+  const trainingData = readTrainingData("dataset.json");
+  console.log(trainingData);
+
+  const configuration = { hiddenLayers: [5, 10], learningRate: 0.3 };
+  const network = new brain.recurrent.LSTM(configuration);
+
+  network.train(trainingData, {
+    iterations: 120,
+    //   logPeriod: 1000,
+    errorThresh: 0.005,
+    log: (stats) => console.log(stats),
+  });
+
+  // test
+  console.log("Value: ", network.run(morseCode1));
+};
+
+function main() {
+  // for (let i = 0; i < 1000; i++) {
+  //   let val = setTrainingData();
+  //   if (val) {
+  //     console.log("Success in writing data: ", i + 1);
+  //   } else {
+  //     console.log("Unsuccessfull in writing data: ", i + 1);
+  //   }
+  // }
+
+  callNeural("-. ---");
+}
+
+main();

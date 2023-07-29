@@ -107,8 +107,6728 @@
     "input": " ",
     "output": " "
   },
-  { "input": ".... . .-.. .-.. ---", "output": "HELLO" },
-  { "input": ".-- --- .-. .-.. -..", "output": "WORLD" },
-  { "input": ".... --- --- -..", "output": "GOOD" },
-  { "input": "-- --- .-. -. .. -. --.", "output": "MORNING" }
+  {
+    "input": "/",
+    "output": " "
+  },
+  {
+    "input": "--. .-.",
+    "output": "GR"
+  },
+  {
+    "input": ".. ---",
+    "output": "IO"
+  },
+  {
+    "input": "-..- --",
+    "output": "XM"
+  },
+  {
+    "input": ".... ..-",
+    "output": "HU"
+  },
+  {
+    "input": "-.- --",
+    "output": "KM"
+  },
+  {
+    "input": "--- .",
+    "output": "OE"
+  },
+  {
+    "input": ". -.",
+    "output": "EN"
+  },
+  {
+    "input": "--. ..-",
+    "output": "GU"
+  },
+  {
+    "input": ". ....",
+    "output": "EH"
+  },
+  {
+    "input": "...- .-",
+    "output": "VA"
+  },
+  {
+    "input": "..-. --.",
+    "output": "FG"
+  },
+  {
+    "input": "-... --.-",
+    "output": "BQ"
+  },
+  {
+    "input": "--. -..",
+    "output": "GD"
+  },
+  {
+    "input": "...- --.-",
+    "output": "VQ"
+  },
+  {
+    "input": "--. -.",
+    "output": "GN"
+  },
+  {
+    "input": "-... .--.",
+    "output": "BP"
+  },
+  {
+    "input": "--.- ...-",
+    "output": "QV"
+  },
+  {
+    "input": "..- ..",
+    "output": "UI"
+  },
+  {
+    "input": ".- -.-.",
+    "output": "AC"
+  },
+  {
+    "input": "--. -..",
+    "output": "GD"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": "..- ..",
+    "output": "UI"
+  },
+  {
+    "input": "... .---",
+    "output": "SJ"
+  },
+  {
+    "input": ".... --.-",
+    "output": "HQ"
+  },
+  {
+    "input": ".... .---",
+    "output": "HJ"
+  },
+  {
+    "input": ".- ---",
+    "output": "AO"
+  },
+  {
+    "input": "-.-. -.--",
+    "output": "CY"
+  },
+  {
+    "input": "--- ..-.",
+    "output": "OF"
+  },
+  {
+    "input": "--- -.-.",
+    "output": "OC"
+  },
+  {
+    "input": "... -.--",
+    "output": "SY"
+  },
+  {
+    "input": "-. --",
+    "output": "NM"
+  },
+  {
+    "input": "..- ....",
+    "output": "UH"
+  },
+  {
+    "input": ".-. -...",
+    "output": "RB"
+  },
+  {
+    "input": "-.- .-..",
+    "output": "KL"
+  },
+  {
+    "input": ".-. ..",
+    "output": "RI"
+  },
+  {
+    "input": "..- --",
+    "output": "UM"
+  },
+  {
+    "input": "..-. .--",
+    "output": "FW"
+  },
+  {
+    "input": "-. --.-",
+    "output": "NQ"
+  },
+  {
+    "input": "-. .--",
+    "output": "NW"
+  },
+  {
+    "input": ".... --.",
+    "output": "HG"
+  },
+  {
+    "input": ".--. ....",
+    "output": "PH"
+  },
+  {
+    "input": ".-- ...",
+    "output": "WS"
+  },
+  {
+    "input": "-- .--.",
+    "output": "MP"
+  },
+  {
+    "input": ".--. -..-",
+    "output": "PX"
+  },
+  {
+    "input": ".. .--",
+    "output": "IW"
+  },
+  {
+    "input": ".... .-.",
+    "output": "HR"
+  },
+  {
+    "input": "-... -..-",
+    "output": "BX"
+  },
+  {
+    "input": ".-. ...-",
+    "output": "RV"
+  },
+  {
+    "input": "-- .-",
+    "output": "MA"
+  },
+  {
+    "input": "... -.-.",
+    "output": "SC"
+  },
+  {
+    "input": ".--- ...-",
+    "output": "JV"
+  },
+  {
+    "input": "--.. .-",
+    "output": "ZA"
+  },
+  {
+    "input": "--. ..",
+    "output": "GI"
+  },
+  {
+    "input": ".- -..",
+    "output": "AD"
+  },
+  {
+    "input": "--- ...-",
+    "output": "OV"
+  },
+  {
+    "input": "..- -..",
+    "output": "UD"
+  },
+  {
+    "input": "-.-- -",
+    "output": "YT"
+  },
+  {
+    "input": ". .-.",
+    "output": "ER"
+  },
+  {
+    "input": ".-. -..-",
+    "output": "RX"
+  },
+  {
+    "input": "-. ...-",
+    "output": "NV"
+  },
+  {
+    "input": "--.. ..-",
+    "output": "ZU"
+  },
+  {
+    "input": ".-- --",
+    "output": "WM"
+  },
+  {
+    "input": "-.-. --.-",
+    "output": "CQ"
+  },
+  {
+    "input": "..- ....",
+    "output": "UH"
+  },
+  {
+    "input": ".-.. -.--",
+    "output": "LY"
+  },
+  {
+    "input": "... ..",
+    "output": "SI"
+  },
+  {
+    "input": ".-.. .-.",
+    "output": "LR"
+  },
+  {
+    "input": "--. ....",
+    "output": "GH"
+  },
+  {
+    "input": ".. .--.",
+    "output": "IP"
+  },
+  {
+    "input": "-.-- -.--",
+    "output": "YY"
+  },
+  {
+    "input": "..-. ..",
+    "output": "FI"
+  },
+  {
+    "input": ".--- ---",
+    "output": "JO"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": ".-- .--.",
+    "output": "WP"
+  },
+  {
+    "input": "..- ....",
+    "output": "UH"
+  },
+  {
+    "input": "-.-. ..-",
+    "output": "CU"
+  },
+  {
+    "input": "--.. -.-",
+    "output": "ZK"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": "-.-. .---",
+    "output": "CJ"
+  },
+  {
+    "input": ".--. ...-",
+    "output": "PV"
+  },
+  {
+    "input": "-.-. .--",
+    "output": "CW"
+  },
+  {
+    "input": "- .-..",
+    "output": "TL"
+  },
+  {
+    "input": "-.. .",
+    "output": "DE"
+  },
+  {
+    "input": "-.. --",
+    "output": "DM"
+  },
+  {
+    "input": ".-. .-",
+    "output": "RA"
+  },
+  {
+    "input": "...- ..-",
+    "output": "VU"
+  },
+  {
+    "input": "- --.-",
+    "output": "TQ"
+  },
+  {
+    "input": "...- .---",
+    "output": "VJ"
+  },
+  {
+    "input": "--. --.",
+    "output": "GG"
+  },
+  {
+    "input": "--. -.",
+    "output": "GN"
+  },
+  {
+    "input": "--.. ..",
+    "output": "ZI"
+  },
+  {
+    "input": "..-. --..",
+    "output": "FZ"
+  },
+  {
+    "input": "-.-. .-.",
+    "output": "CR"
+  },
+  {
+    "input": "... .---",
+    "output": "SJ"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": ".- -.--",
+    "output": "AY"
+  },
+  {
+    "input": ". --..",
+    "output": "EZ"
+  },
+  {
+    "input": "-.-- ....",
+    "output": "YH"
+  },
+  {
+    "input": ".- .-",
+    "output": "AA"
+  },
+  {
+    "input": "... ....",
+    "output": "SH"
+  },
+  {
+    "input": "--- --",
+    "output": "OM"
+  },
+  {
+    "input": "- ..-",
+    "output": "TU"
+  },
+  {
+    "input": "-.- ..-",
+    "output": "KU"
+  },
+  {
+    "input": "--.- .-",
+    "output": "QA"
+  },
+  {
+    "input": "--. .-",
+    "output": "GA"
+  },
+  {
+    "input": "-..- .-..",
+    "output": "XL"
+  },
+  {
+    "input": "--. .-..",
+    "output": "GL"
+  },
+  {
+    "input": ".-.. --.",
+    "output": "LG"
+  },
+  {
+    "input": "--- --",
+    "output": "OM"
+  },
+  {
+    "input": "--. .---",
+    "output": "GJ"
+  },
+  {
+    "input": "-.- ---",
+    "output": "KO"
+  },
+  {
+    "input": "- .--.",
+    "output": "TP"
+  },
+  {
+    "input": ".--. .-",
+    "output": "PA"
+  },
+  {
+    "input": ".-.. ...",
+    "output": "LS"
+  },
+  {
+    "input": ".... .-",
+    "output": "HA"
+  },
+  {
+    "input": ". .",
+    "output": "EE"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": ".... .-..",
+    "output": "HL"
+  },
+  {
+    "input": "--- .--",
+    "output": "OW"
+  },
+  {
+    "input": "-.. .---",
+    "output": "DJ"
+  },
+  {
+    "input": "--.. .--",
+    "output": "ZW"
+  },
+  {
+    "input": ".... ..-",
+    "output": "HU"
+  },
+  {
+    "input": "-..- --",
+    "output": "XM"
+  },
+  {
+    "input": ".- -.--",
+    "output": "AY"
+  },
+  {
+    "input": "..- -",
+    "output": "UT"
+  },
+  {
+    "input": ".-- -.-.",
+    "output": "WC"
+  },
+  {
+    "input": ".--. .--.",
+    "output": "PP"
+  },
+  {
+    "input": ".-.. --..",
+    "output": "LZ"
+  },
+  {
+    "input": ".... ....",
+    "output": "HH"
+  },
+  {
+    "input": "-... -",
+    "output": "BT"
+  },
+  {
+    "input": ".. ..-.",
+    "output": "IF"
+  },
+  {
+    "input": "--. -.-.",
+    "output": "GC"
+  },
+  {
+    "input": ".- -...",
+    "output": "AB"
+  },
+  {
+    "input": "-.. .-..",
+    "output": "DL"
+  },
+  {
+    "input": "..- -",
+    "output": "UT"
+  },
+  {
+    "input": "..-. ...",
+    "output": "FS"
+  },
+  {
+    "input": ".... -.--",
+    "output": "HY"
+  },
+  {
+    "input": ". .-",
+    "output": "EA"
+  },
+  {
+    "input": ".--- .-..",
+    "output": "JL"
+  },
+  {
+    "input": "-.- --.-",
+    "output": "KQ"
+  },
+  {
+    "input": "--.- ...",
+    "output": "QS"
+  },
+  {
+    "input": "--.- .-",
+    "output": "QA"
+  },
+  {
+    "input": "-.-. ....",
+    "output": "CH"
+  },
+  {
+    "input": "--.. .-",
+    "output": "ZA"
+  },
+  {
+    "input": "-- --",
+    "output": "MM"
+  },
+  {
+    "input": "-.-- ....",
+    "output": "YH"
+  },
+  {
+    "input": ".-- .--",
+    "output": "WW"
+  },
+  {
+    "input": ".... --.-",
+    "output": "HQ"
+  },
+  {
+    "input": "--.- --.",
+    "output": "QG"
+  },
+  {
+    "input": ". .---",
+    "output": "EJ"
+  },
+  {
+    "input": "-... -.-.",
+    "output": "BC"
+  },
+  {
+    "input": "-.-- ---",
+    "output": "YO"
+  },
+  {
+    "input": ".. --.",
+    "output": "IG"
+  },
+  {
+    "input": "..- ...",
+    "output": "US"
+  },
+  {
+    "input": "--.. --.-",
+    "output": "ZQ"
+  },
+  {
+    "input": ".- -.",
+    "output": "AN"
+  },
+  {
+    "input": "-..- .-..",
+    "output": "XL"
+  },
+  {
+    "input": "--. -.-.",
+    "output": "GC"
+  },
+  {
+    "input": ". -.",
+    "output": "EN"
+  },
+  {
+    "input": "-.-. ..",
+    "output": "CI"
+  },
+  {
+    "input": ".--. .-",
+    "output": "PA"
+  },
+  {
+    "input": "--- .-.",
+    "output": "OR"
+  },
+  {
+    "input": "...- .---",
+    "output": "VJ"
+  },
+  {
+    "input": ". --.",
+    "output": "EG"
+  },
+  {
+    "input": "-... ....",
+    "output": "BH"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": ".... --",
+    "output": "HM"
+  },
+  {
+    "input": ".... ..",
+    "output": "HI"
+  },
+  {
+    "input": ".... -...",
+    "output": "HB"
+  },
+  {
+    "input": ".- -.-.",
+    "output": "AC"
+  },
+  {
+    "input": "..-. -...",
+    "output": "FB"
+  },
+  {
+    "input": "--.. ...",
+    "output": "ZS"
+  },
+  {
+    "input": "-- -.-",
+    "output": "MK"
+  },
+  {
+    "input": "--. ...",
+    "output": "GS"
+  },
+  {
+    "input": ". -..",
+    "output": "ED"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": "--. -.--",
+    "output": "GY"
+  },
+  {
+    "input": "- .-.",
+    "output": "TR"
+  },
+  {
+    "input": ".--. .--.",
+    "output": "PP"
+  },
+  {
+    "input": "-..- ..-.",
+    "output": "XF"
+  },
+  {
+    "input": "-.-. --.-",
+    "output": "CQ"
+  },
+  {
+    "input": "--. ..-.",
+    "output": "GF"
+  },
+  {
+    "input": ".- -...",
+    "output": "AB"
+  },
+  {
+    "input": "-.-. .-.",
+    "output": "CR"
+  },
+  {
+    "input": ".-. ....",
+    "output": "RH"
+  },
+  {
+    "input": "..-. ...-",
+    "output": "FV"
+  },
+  {
+    "input": "..-. .",
+    "output": "FE"
+  },
+  {
+    "input": ".--- -.-.",
+    "output": "JC"
+  },
+  {
+    "input": "-.-. ..-",
+    "output": "CU"
+  },
+  {
+    "input": "-- -..-",
+    "output": "MX"
+  },
+  {
+    "input": ".. ...-",
+    "output": "IV"
+  },
+  {
+    "input": "--.. .-",
+    "output": "ZA"
+  },
+  {
+    "input": "-.-- ---",
+    "output": "YO"
+  },
+  {
+    "input": "-.. -.--",
+    "output": "DY"
+  },
+  {
+    "input": ".--- .---",
+    "output": "JJ"
+  },
+  {
+    "input": ".-.. -.-",
+    "output": "LK"
+  },
+  {
+    "input": "--.. -..",
+    "output": "ZD"
+  },
+  {
+    "input": ".-.. --.",
+    "output": "LG"
+  },
+  {
+    "input": "-.-. ....",
+    "output": "CH"
+  },
+  {
+    "input": "--. -...",
+    "output": "GB"
+  },
+  {
+    "input": "..-. ..-",
+    "output": "FU"
+  },
+  {
+    "input": "-.- .-.",
+    "output": "KR"
+  },
+  {
+    "input": ".. .-.",
+    "output": "IR"
+  },
+  {
+    "input": ".--. .-.",
+    "output": "PR"
+  },
+  {
+    "input": "..-. .--.",
+    "output": "FP"
+  },
+  {
+    "input": "-. --.",
+    "output": "NG"
+  },
+  {
+    "input": "... ..-.",
+    "output": "SF"
+  },
+  {
+    "input": ".--. ---",
+    "output": "PO"
+  },
+  {
+    "input": ".- -.-.",
+    "output": "AC"
+  },
+  {
+    "input": "..-. -",
+    "output": "FT"
+  },
+  {
+    "input": "-- .--",
+    "output": "MW"
+  },
+  {
+    "input": "-- .",
+    "output": "ME"
+  },
+  {
+    "input": ".--. -..",
+    "output": "PD"
+  },
+  {
+    "input": "-..- -...",
+    "output": "XB"
+  },
+  {
+    "input": "-.. -...",
+    "output": "DB"
+  },
+  {
+    "input": "..- -..",
+    "output": "UD"
+  },
+  {
+    "input": "... ---",
+    "output": "SO"
+  },
+  {
+    "input": ". --",
+    "output": "EM"
+  },
+  {
+    "input": ".- .",
+    "output": "AE"
+  },
+  {
+    "input": "-. --.-",
+    "output": "NQ"
+  },
+  {
+    "input": "- .-.",
+    "output": "TR"
+  },
+  {
+    "input": ".... --.",
+    "output": "HG"
+  },
+  {
+    "input": "-.-- .",
+    "output": "YE"
+  },
+  {
+    "input": "...- -.--",
+    "output": "VY"
+  },
+  {
+    "input": ".... ..",
+    "output": "HI"
+  },
+  {
+    "input": ".- .---",
+    "output": "AJ"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": ".-- ...",
+    "output": "WS"
+  },
+  {
+    "input": "--- --.",
+    "output": "OG"
+  },
+  {
+    "input": ".-.. ..-.",
+    "output": "LF"
+  },
+  {
+    "input": "..- -..-",
+    "output": "UX"
+  },
+  {
+    "input": "... --",
+    "output": "SM"
+  },
+  {
+    "input": ".-.. ---",
+    "output": "LO"
+  },
+  {
+    "input": "-.-. -.",
+    "output": "CN"
+  },
+  {
+    "input": "-.- .-.",
+    "output": "KR"
+  },
+  {
+    "input": ".. -..",
+    "output": "ID"
+  },
+  {
+    "input": "- -..",
+    "output": "TD"
+  },
+  {
+    "input": ". ...",
+    "output": "ES"
+  },
+  {
+    "input": "...- --.-",
+    "output": "VQ"
+  },
+  {
+    "input": "-.-. ..",
+    "output": "CI"
+  },
+  {
+    "input": ".--- .",
+    "output": "JE"
+  },
+  {
+    "input": "-... ...-",
+    "output": "BV"
+  },
+  {
+    "input": ".-.. -.--",
+    "output": "LY"
+  },
+  {
+    "input": ".... .-",
+    "output": "HA"
+  },
+  {
+    "input": "--.- .-.",
+    "output": "QR"
+  },
+  {
+    "input": "-... .--.",
+    "output": "BP"
+  },
+  {
+    "input": "...- --..",
+    "output": "VZ"
+  },
+  {
+    "input": "-... -.-",
+    "output": "BK"
+  },
+  {
+    "input": "- --..",
+    "output": "TZ"
+  },
+  {
+    "input": "--.- -.--",
+    "output": "QY"
+  },
+  {
+    "input": ".. ..-.",
+    "output": "IF"
+  },
+  {
+    "input": "-.- .",
+    "output": "KE"
+  },
+  {
+    "input": "--.. .",
+    "output": "ZE"
+  },
+  {
+    "input": ".-. --.-",
+    "output": "RQ"
+  },
+  {
+    "input": ".. --.",
+    "output": "IG"
+  },
+  {
+    "input": ".... --.-",
+    "output": "HQ"
+  },
+  {
+    "input": ".. --..",
+    "output": "IZ"
+  },
+  {
+    "input": "-.- -.",
+    "output": "KN"
+  },
+  {
+    "input": "--.- -.--",
+    "output": "QY"
+  },
+  {
+    "input": "-. --.",
+    "output": "NG"
+  },
+  {
+    "input": ".. --.-",
+    "output": "IQ"
+  },
+  {
+    "input": "--.- -..-",
+    "output": "QX"
+  },
+  {
+    "input": ".-.. .-.",
+    "output": "LR"
+  },
+  {
+    "input": ".-- --.",
+    "output": "WG"
+  },
+  {
+    "input": ".- -.--",
+    "output": "AY"
+  },
+  {
+    "input": "--.. ...",
+    "output": "ZS"
+  },
+  {
+    "input": "..-. ..",
+    "output": "FI"
+  },
+  {
+    "input": "-.. .-.",
+    "output": "DR"
+  },
+  {
+    "input": "-. .",
+    "output": "NE"
+  },
+  {
+    "input": "-. -.-.",
+    "output": "NC"
+  },
+  {
+    "input": "--.. .--",
+    "output": "ZW"
+  },
+  {
+    "input": "-.-- -.-",
+    "output": "YK"
+  },
+  {
+    "input": "-..- .--.",
+    "output": "XP"
+  },
+  {
+    "input": "-..- --.",
+    "output": "XG"
+  },
+  {
+    "input": "- -.--",
+    "output": "TY"
+  },
+  {
+    "input": ".. -.-",
+    "output": "IK"
+  },
+  {
+    "input": ". ....",
+    "output": "EH"
+  },
+  {
+    "input": "-.-- ---",
+    "output": "YO"
+  },
+  {
+    "input": "-. -.--",
+    "output": "NY"
+  },
+  {
+    "input": "-... -.--",
+    "output": "BY"
+  },
+  {
+    "input": ". ...-",
+    "output": "EV"
+  },
+  {
+    "input": "-.-. -",
+    "output": "CT"
+  },
+  {
+    "input": "-..- ..-",
+    "output": "XU"
+  },
+  {
+    "input": "-- -",
+    "output": "MT"
+  },
+  {
+    "input": ".. -.-.",
+    "output": "IC"
+  },
+  {
+    "input": "--.- .--",
+    "output": "QW"
+  },
+  {
+    "input": ".... -.",
+    "output": "HN"
+  },
+  {
+    "input": "-..- ...",
+    "output": "XS"
+  },
+  {
+    "input": "..-. --..",
+    "output": "FZ"
+  },
+  {
+    "input": "-- --..",
+    "output": "MZ"
+  },
+  {
+    "input": "..-. ....",
+    "output": "FH"
+  },
+  {
+    "input": "-.-- -.-.",
+    "output": "YC"
+  },
+  {
+    "input": "-- -.-",
+    "output": "MK"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": ".-- --.",
+    "output": "WG"
+  },
+  {
+    "input": "-.- .-",
+    "output": "KA"
+  },
+  {
+    "input": ".-. ...-",
+    "output": "RV"
+  },
+  {
+    "input": ".--. .---",
+    "output": "PJ"
+  },
+  {
+    "input": ".-- --..",
+    "output": "WZ"
+  },
+  {
+    "input": "--- ..-",
+    "output": "OU"
+  },
+  {
+    "input": "-... .-",
+    "output": "BA"
+  },
+  {
+    "input": ".. --",
+    "output": "IM"
+  },
+  {
+    "input": "-.. -.",
+    "output": "DN"
+  },
+  {
+    "input": "--. .-..",
+    "output": "GL"
+  },
+  {
+    "input": "-- -.-.",
+    "output": "MC"
+  },
+  {
+    "input": "--.- -.-",
+    "output": "QK"
+  },
+  {
+    "input": "- -.-.",
+    "output": "TC"
+  },
+  {
+    "input": "-.-. -.-.",
+    "output": "CC"
+  },
+  {
+    "input": ".-- --.",
+    "output": "WG"
+  },
+  {
+    "input": ".-- -..",
+    "output": "WD"
+  },
+  {
+    "input": ".- ..",
+    "output": "AI"
+  },
+  {
+    "input": "--.. .",
+    "output": "ZE"
+  },
+  {
+    "input": "-..- .-.",
+    "output": "XR"
+  },
+  {
+    "input": "..- -..",
+    "output": "UD"
+  },
+  {
+    "input": ".. .-",
+    "output": "IA"
+  },
+  {
+    "input": "--- .-..",
+    "output": "OL"
+  },
+  {
+    "input": ".-. ...",
+    "output": "RS"
+  },
+  {
+    "input": "- .---",
+    "output": "TJ"
+  },
+  {
+    "input": "-- .",
+    "output": "ME"
+  },
+  {
+    "input": "--- ..-.",
+    "output": "OF"
+  },
+  {
+    "input": "-- -.",
+    "output": "MN"
+  },
+  {
+    "input": ". .-.",
+    "output": "ER"
+  },
+  {
+    "input": ".--- ...",
+    "output": "JS"
+  },
+  {
+    "input": "..- .-..",
+    "output": "UL"
+  },
+  {
+    "input": "..-. -..",
+    "output": "FD"
+  },
+  {
+    "input": "..- -.--",
+    "output": "UY"
+  },
+  {
+    "input": "..- ..-.",
+    "output": "UF"
+  },
+  {
+    "input": "-..- ---",
+    "output": "XO"
+  },
+  {
+    "input": ".... .",
+    "output": "HE"
+  },
+  {
+    "input": "-.-. .-.",
+    "output": "CR"
+  },
+  {
+    "input": "..-. --",
+    "output": "FM"
+  },
+  {
+    "input": ". -.",
+    "output": "EN"
+  },
+  {
+    "input": "-. ...",
+    "output": "NS"
+  },
+  {
+    "input": ".-. ....",
+    "output": "RH"
+  },
+  {
+    "input": "..- .-",
+    "output": "UA"
+  },
+  {
+    "input": "-. --..",
+    "output": "NZ"
+  },
+  {
+    "input": "--. .-",
+    "output": "GA"
+  },
+  {
+    "input": ". -.-",
+    "output": "EK"
+  },
+  {
+    "input": "..-. ....",
+    "output": "FH"
+  },
+  {
+    "input": ".--- .-",
+    "output": "JA"
+  },
+  {
+    "input": ". ..",
+    "output": "EI"
+  },
+  {
+    "input": "...- .",
+    "output": "VE"
+  },
+  {
+    "input": "..-. .-",
+    "output": "FA"
+  },
+  {
+    "input": "--.. ..-",
+    "output": "ZU"
+  },
+  {
+    "input": "-- --.-",
+    "output": "MQ"
+  },
+  {
+    "input": ".-.. .-.",
+    "output": "LR"
+  },
+  {
+    "input": "..- --.",
+    "output": "UG"
+  },
+  {
+    "input": "-.-. ...-",
+    "output": "CV"
+  },
+  {
+    "input": "-.-. .--.",
+    "output": "CP"
+  },
+  {
+    "input": "--. .-",
+    "output": "GA"
+  },
+  {
+    "input": "--. ....",
+    "output": "GH"
+  },
+  {
+    "input": ".- -..",
+    "output": "AD"
+  },
+  {
+    "input": "--. -.-",
+    "output": "GK"
+  },
+  {
+    "input": "-.- -..",
+    "output": "KD"
+  },
+  {
+    "input": "-..- ..-",
+    "output": "XU"
+  },
+  {
+    "input": "...- -",
+    "output": "VT"
+  },
+  {
+    "input": ". -..-",
+    "output": "EX"
+  },
+  {
+    "input": ".-. -.-.",
+    "output": "RC"
+  },
+  {
+    "input": ".-.. --.-",
+    "output": "LQ"
+  },
+  {
+    "input": "-.. ....",
+    "output": "DH"
+  },
+  {
+    "input": ".. ..-",
+    "output": "IU"
+  },
+  {
+    "input": "-..- ...",
+    "output": "XS"
+  },
+  {
+    "input": ".-. .",
+    "output": "RE"
+  },
+  {
+    "input": "... .-..",
+    "output": "SL"
+  },
+  {
+    "input": "- .--",
+    "output": "TW"
+  },
+  {
+    "input": ".-.. .",
+    "output": "LE"
+  },
+  {
+    "input": ".-. -.-",
+    "output": "RK"
+  },
+  {
+    "input": ".- -..",
+    "output": "AD"
+  },
+  {
+    "input": "..-. ..",
+    "output": "FI"
+  },
+  {
+    "input": "--.- ..-",
+    "output": "QU"
+  },
+  {
+    "input": ".-. --..",
+    "output": "RZ"
+  },
+  {
+    "input": "-. -...",
+    "output": "NB"
+  },
+  {
+    "input": "... --..",
+    "output": "SZ"
+  },
+  {
+    "input": "-. --.-",
+    "output": "NQ"
+  },
+  {
+    "input": "--- -",
+    "output": "OT"
+  },
+  {
+    "input": ". -.",
+    "output": "EN"
+  },
+  {
+    "input": "-.- -.-",
+    "output": "KK"
+  },
+  {
+    "input": "--. .-.",
+    "output": "GR"
+  },
+  {
+    "input": ".... -.-.",
+    "output": "HC"
+  },
+  {
+    "input": "--.- .--",
+    "output": "QW"
+  },
+  {
+    "input": ". ..-",
+    "output": "EU"
+  },
+  {
+    "input": "-.- --",
+    "output": "KM"
+  },
+  {
+    "input": "-.-- ..-",
+    "output": "YU"
+  },
+  {
+    "input": ".-.. ....",
+    "output": "LH"
+  },
+  {
+    "input": "--. ...-",
+    "output": "GV"
+  },
+  {
+    "input": "--.- --",
+    "output": "QM"
+  },
+  {
+    "input": "--.. --.",
+    "output": "ZG"
+  },
+  {
+    "input": "-. ..-.",
+    "output": "NF"
+  },
+  {
+    "input": "-.. -.-",
+    "output": "DK"
+  },
+  {
+    "input": ". -..-",
+    "output": "EX"
+  },
+  {
+    "input": "-... --.-",
+    "output": "BQ"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": ".-. .-.",
+    "output": "RR"
+  },
+  {
+    "input": "-.-- ..-",
+    "output": "YU"
+  },
+  {
+    "input": "--.. -...",
+    "output": "ZB"
+  },
+  {
+    "input": "-.-- -...",
+    "output": "YB"
+  },
+  {
+    "input": "..- ....",
+    "output": "UH"
+  },
+  {
+    "input": "-.-- -.",
+    "output": "YN"
+  },
+  {
+    "input": "...- ...",
+    "output": "VS"
+  },
+  {
+    "input": "--- ---",
+    "output": "OO"
+  },
+  {
+    "input": "--- ---",
+    "output": "OO"
+  },
+  {
+    "input": ".--- .--",
+    "output": "JW"
+  },
+  {
+    "input": ". .",
+    "output": "EE"
+  },
+  {
+    "input": "..-. -.-",
+    "output": "FK"
+  },
+  {
+    "input": "- -.-",
+    "output": "TK"
+  },
+  {
+    "input": ". .--",
+    "output": "EW"
+  },
+  {
+    "input": "--.. ....",
+    "output": "ZH"
+  },
+  {
+    "input": ".--- .-..",
+    "output": "JL"
+  },
+  {
+    "input": ". .---",
+    "output": "EJ"
+  },
+  {
+    "input": ".--. ...",
+    "output": "PS"
+  },
+  {
+    "input": "--.- -..",
+    "output": "QD"
+  },
+  {
+    "input": "... ...-",
+    "output": "SV"
+  },
+  {
+    "input": "-. ---",
+    "output": "NO"
+  },
+  {
+    "input": ". --.-",
+    "output": "EQ"
+  },
+  {
+    "input": ".- --.-",
+    "output": "AQ"
+  },
+  {
+    "input": "-. -",
+    "output": "NT"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": "- ---",
+    "output": "TO"
+  },
+  {
+    "input": "--.- .",
+    "output": "QE"
+  },
+  {
+    "input": "-... -..",
+    "output": "BD"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": ". -.-.",
+    "output": "EC"
+  },
+  {
+    "input": "- --",
+    "output": "TM"
+  },
+  {
+    "input": ".. -...",
+    "output": "IB"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": ".- ...",
+    "output": "AS"
+  },
+  {
+    "input": "-..- ...",
+    "output": "XS"
+  },
+  {
+    "input": "--- -.",
+    "output": "ON"
+  },
+  {
+    "input": "-.-- ..",
+    "output": "YI"
+  },
+  {
+    "input": "--.- ..",
+    "output": "QI"
+  },
+  {
+    "input": "-.-- .---",
+    "output": "YJ"
+  },
+  {
+    "input": ".-. -.--",
+    "output": "RY"
+  },
+  {
+    "input": "-..- --.",
+    "output": "XG"
+  },
+  {
+    "input": "-... ..-",
+    "output": "BU"
+  },
+  {
+    "input": ".-.. ....",
+    "output": "LH"
+  },
+  {
+    "input": "...- ..-.",
+    "output": "VF"
+  },
+  {
+    "input": "--.. .-..",
+    "output": "ZL"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": ".--. .--.",
+    "output": "PP"
+  },
+  {
+    "input": ".... ...-",
+    "output": "HV"
+  },
+  {
+    "input": "-.- -..-",
+    "output": "KX"
+  },
+  {
+    "input": ".... --.",
+    "output": "HG"
+  },
+  {
+    "input": ".-- -...",
+    "output": "WB"
+  },
+  {
+    "input": ".... .-..",
+    "output": "HL"
+  },
+  {
+    "input": "-.- .",
+    "output": "KE"
+  },
+  {
+    "input": ".-. ...",
+    "output": "RS"
+  },
+  {
+    "input": "...- -.",
+    "output": "VN"
+  },
+  {
+    "input": "--. -..-",
+    "output": "GX"
+  },
+  {
+    "input": "-.-- ...",
+    "output": "YS"
+  },
+  {
+    "input": "..-. -.--",
+    "output": "FY"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": "- ....",
+    "output": "TH"
+  },
+  {
+    "input": "... -.",
+    "output": "SN"
+  },
+  {
+    "input": "-.-- .-..",
+    "output": "YL"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": ".-- .--",
+    "output": "WW"
+  },
+  {
+    "input": "..-. ..-.",
+    "output": "FF"
+  },
+  {
+    "input": "-..- -..",
+    "output": "XD"
+  },
+  {
+    "input": "--- .-",
+    "output": "OA"
+  },
+  {
+    "input": ".-- ....",
+    "output": "WH"
+  },
+  {
+    "input": ".--- -..",
+    "output": "JD"
+  },
+  {
+    "input": "-.-- -",
+    "output": "YT"
+  },
+  {
+    "input": ". --.-",
+    "output": "EQ"
+  },
+  {
+    "input": "-. --..",
+    "output": "NZ"
+  },
+  {
+    "input": "--.- --.",
+    "output": "QG"
+  },
+  {
+    "input": "-... -",
+    "output": "BT"
+  },
+  {
+    "input": "..- --.",
+    "output": "UG"
+  },
+  {
+    "input": "-- -.--",
+    "output": "MY"
+  },
+  {
+    "input": "--- ..-",
+    "output": "OU"
+  },
+  {
+    "input": "--. --",
+    "output": "GM"
+  },
+  {
+    "input": "-. ..-",
+    "output": "NU"
+  },
+  {
+    "input": "-.-- ---",
+    "output": "YO"
+  },
+  {
+    "input": ".- .-..",
+    "output": "AL"
+  },
+  {
+    "input": "..-. -",
+    "output": "FT"
+  },
+  {
+    "input": "--.. ....",
+    "output": "ZH"
+  },
+  {
+    "input": "--.- ..-",
+    "output": "QU"
+  },
+  {
+    "input": "--.. --.-",
+    "output": "ZQ"
+  },
+  {
+    "input": "--- -.-.",
+    "output": "OC"
+  },
+  {
+    "input": ".--- ...-",
+    "output": "JV"
+  },
+  {
+    "input": "-. -",
+    "output": "NT"
+  },
+  {
+    "input": "-.-. .---",
+    "output": "CJ"
+  },
+  {
+    "input": "..- .---",
+    "output": "UJ"
+  },
+  {
+    "input": ".--- .---",
+    "output": "JJ"
+  },
+  {
+    "input": "--- .---",
+    "output": "OJ"
+  },
+  {
+    "input": ".. --..",
+    "output": "IZ"
+  },
+  {
+    "input": "... ..",
+    "output": "SI"
+  },
+  {
+    "input": "--- ...",
+    "output": "OS"
+  },
+  {
+    "input": "-. .-..",
+    "output": "NL"
+  },
+  {
+    "input": "--.- .--",
+    "output": "QW"
+  },
+  {
+    "input": ".-- ..-.",
+    "output": "WF"
+  },
+  {
+    "input": "--.. -..-",
+    "output": "ZX"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": ".-.. -",
+    "output": "LT"
+  },
+  {
+    "input": "..- -.--",
+    "output": "UY"
+  },
+  {
+    "input": ".- ...",
+    "output": "AS"
+  },
+  {
+    "input": ".-- .-.",
+    "output": "WR"
+  },
+  {
+    "input": "--- --.-",
+    "output": "OQ"
+  },
+  {
+    "input": "- -.-",
+    "output": "TK"
+  },
+  {
+    "input": "-.-. ..",
+    "output": "CI"
+  },
+  {
+    "input": "...- .-.",
+    "output": "VR"
+  },
+  {
+    "input": ".-.. ....",
+    "output": "LH"
+  },
+  {
+    "input": ".--- ...-",
+    "output": "JV"
+  },
+  {
+    "input": ". --.-",
+    "output": "EQ"
+  },
+  {
+    "input": ".-- -...",
+    "output": "WB"
+  },
+  {
+    "input": "--.- .--",
+    "output": "QW"
+  },
+  {
+    "input": "...- .--.",
+    "output": "VP"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": "..- .-.",
+    "output": "UR"
+  },
+  {
+    "input": "-.-- ...-",
+    "output": "YV"
+  },
+  {
+    "input": ".- -...",
+    "output": "AB"
+  },
+  {
+    "input": ".--- .--.",
+    "output": "JP"
+  },
+  {
+    "input": "... -...",
+    "output": "SB"
+  },
+  {
+    "input": ". .",
+    "output": "EE"
+  },
+  {
+    "input": "... -.",
+    "output": "SN"
+  },
+  {
+    "input": "..-. .---",
+    "output": "FJ"
+  },
+  {
+    "input": "-... ...",
+    "output": "BS"
+  },
+  {
+    "input": "-.- .-.",
+    "output": "KR"
+  },
+  {
+    "input": ".-. --.",
+    "output": "RG"
+  },
+  {
+    "input": ".. .",
+    "output": "IE"
+  },
+  {
+    "input": "-.-. -",
+    "output": "CT"
+  },
+  {
+    "input": "-.. .--",
+    "output": "DW"
+  },
+  {
+    "input": "-.-. -..",
+    "output": "CD"
+  },
+  {
+    "input": ".-- --.-",
+    "output": "WQ"
+  },
+  {
+    "input": "..- ..",
+    "output": "UI"
+  },
+  {
+    "input": "--- .--.",
+    "output": "OP"
+  },
+  {
+    "input": "-.-. ..-",
+    "output": "CU"
+  },
+  {
+    "input": ".... .",
+    "output": "HE"
+  },
+  {
+    "input": "...- -.-",
+    "output": "VK"
+  },
+  {
+    "input": "--. ....",
+    "output": "GH"
+  },
+  {
+    "input": "-- .-",
+    "output": "MA"
+  },
+  {
+    "input": ".- ..-.",
+    "output": "AF"
+  },
+  {
+    "input": ".--- ..-",
+    "output": "JU"
+  },
+  {
+    "input": "--.- ....",
+    "output": "QH"
+  },
+  {
+    "input": "-... .-.",
+    "output": "BR"
+  },
+  {
+    "input": "...- --",
+    "output": "VM"
+  },
+  {
+    "input": "--. .-.",
+    "output": "GR"
+  },
+  {
+    "input": ". .-",
+    "output": "EA"
+  },
+  {
+    "input": "-... .-.",
+    "output": "BR"
+  },
+  {
+    "input": "... -",
+    "output": "ST"
+  },
+  {
+    "input": ".- ...-",
+    "output": "AV"
+  },
+  {
+    "input": ".. .---",
+    "output": "IJ"
+  },
+  {
+    "input": "--.. .--",
+    "output": "ZW"
+  },
+  {
+    "input": ".- -.-",
+    "output": "AK"
+  },
+  {
+    "input": "--.. ..-",
+    "output": "ZU"
+  },
+  {
+    "input": "...- ....",
+    "output": "VH"
+  },
+  {
+    "input": ".-. -.",
+    "output": "RN"
+  },
+  {
+    "input": ".- .-",
+    "output": "AA"
+  },
+  {
+    "input": ".--. --..",
+    "output": "PZ"
+  },
+  {
+    "input": "-.-- .",
+    "output": "YE"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": "-- --..",
+    "output": "MZ"
+  },
+  {
+    "input": ".-. -..-",
+    "output": "RX"
+  },
+  {
+    "input": "- .-..",
+    "output": "TL"
+  },
+  {
+    "input": "--.. .-.",
+    "output": "ZR"
+  },
+  {
+    "input": ".-- ....",
+    "output": "WH"
+  },
+  {
+    "input": "-.-- -...",
+    "output": "YB"
+  },
+  {
+    "input": ".-- -.--",
+    "output": "WY"
+  },
+  {
+    "input": ".-.. -.-",
+    "output": "LK"
+  },
+  {
+    "input": "-... ..-",
+    "output": "BU"
+  },
+  {
+    "input": ".-. -.",
+    "output": "RN"
+  },
+  {
+    "input": ".... .-",
+    "output": "HA"
+  },
+  {
+    "input": ".-- --..",
+    "output": "WZ"
+  },
+  {
+    "input": "--.. .-",
+    "output": "ZA"
+  },
+  {
+    "input": "--.- .--.",
+    "output": "QP"
+  },
+  {
+    "input": ". .-..",
+    "output": "EL"
+  },
+  {
+    "input": "--. --",
+    "output": "GM"
+  },
+  {
+    "input": ".... -.--",
+    "output": "HY"
+  },
+  {
+    "input": "-..- ....",
+    "output": "XH"
+  },
+  {
+    "input": ".-.. .",
+    "output": "LE"
+  },
+  {
+    "input": "-.- ...",
+    "output": "KS"
+  },
+  {
+    "input": ".-. --",
+    "output": "RM"
+  },
+  {
+    "input": "... ..-.",
+    "output": "SF"
+  },
+  {
+    "input": "-... .---",
+    "output": "BJ"
+  },
+  {
+    "input": "-... --..",
+    "output": "BZ"
+  },
+  {
+    "input": ".... ...",
+    "output": "HS"
+  },
+  {
+    "input": ".-.. ..-",
+    "output": "LU"
+  },
+  {
+    "input": "- -.",
+    "output": "TN"
+  },
+  {
+    "input": "-. -.",
+    "output": "NN"
+  },
+  {
+    "input": "-.. --..",
+    "output": "DZ"
+  },
+  {
+    "input": "-... -.-",
+    "output": "BK"
+  },
+  {
+    "input": "... -.--",
+    "output": "SY"
+  },
+  {
+    "input": "..-. ..-.",
+    "output": "FF"
+  },
+  {
+    "input": "-... --.",
+    "output": "BG"
+  },
+  {
+    "input": "-... .",
+    "output": "BE"
+  },
+  {
+    "input": "-.-. .--",
+    "output": "CW"
+  },
+  {
+    "input": ".-. -",
+    "output": "RT"
+  },
+  {
+    "input": "-.-- ...",
+    "output": "YS"
+  },
+  {
+    "input": ".... .-..",
+    "output": "HL"
+  },
+  {
+    "input": "-..- .--",
+    "output": "XW"
+  },
+  {
+    "input": "--. ...",
+    "output": "GS"
+  },
+  {
+    "input": "-..- -.--",
+    "output": "XY"
+  },
+  {
+    "input": "-.. ..-",
+    "output": "DU"
+  },
+  {
+    "input": ".- .",
+    "output": "AE"
+  },
+  {
+    "input": ".--. -.",
+    "output": "PN"
+  },
+  {
+    "input": "-... -..-",
+    "output": "BX"
+  },
+  {
+    "input": ".-- -.-.",
+    "output": "WC"
+  },
+  {
+    "input": "-... .-",
+    "output": "BA"
+  },
+  {
+    "input": "-.-- -...",
+    "output": "YB"
+  },
+  {
+    "input": ".--. ..-.",
+    "output": "PF"
+  },
+  {
+    "input": ".--- .-..",
+    "output": "JL"
+  },
+  {
+    "input": ".- ...",
+    "output": "AS"
+  },
+  {
+    "input": "-.- .--",
+    "output": "KW"
+  },
+  {
+    "input": ".--- --.",
+    "output": "JG"
+  },
+  {
+    "input": "-- ..",
+    "output": "MI"
+  },
+  {
+    "input": "- ..-",
+    "output": "TU"
+  },
+  {
+    "input": "-- -...",
+    "output": "MB"
+  },
+  {
+    "input": ".-.. -.-.",
+    "output": "LC"
+  },
+  {
+    "input": ".-- -.-",
+    "output": "WK"
+  },
+  {
+    "input": "... -..-",
+    "output": "SX"
+  },
+  {
+    "input": "-.-- ..-",
+    "output": "YU"
+  },
+  {
+    "input": "..- ..-.",
+    "output": "UF"
+  },
+  {
+    "input": ".... .-..",
+    "output": "HL"
+  },
+  {
+    "input": ".-.. --.-",
+    "output": "LQ"
+  },
+  {
+    "input": "-- -..",
+    "output": "MD"
+  },
+  {
+    "input": "--- -..",
+    "output": "OD"
+  },
+  {
+    "input": "-.-- .-.",
+    "output": "YR"
+  },
+  {
+    "input": "-.- -..-",
+    "output": "KX"
+  },
+  {
+    "input": "-. ..",
+    "output": "NI"
+  },
+  {
+    "input": ".... ....",
+    "output": "HH"
+  },
+  {
+    "input": ".- --..",
+    "output": "AZ"
+  },
+  {
+    "input": ".-. ...",
+    "output": "RS"
+  },
+  {
+    "input": ".-- -",
+    "output": "WT"
+  },
+  {
+    "input": ".. ...-",
+    "output": "IV"
+  },
+  {
+    "input": ".... -.-.",
+    "output": "HC"
+  },
+  {
+    "input": "... .-.",
+    "output": "SR"
+  },
+  {
+    "input": "--. --.",
+    "output": "GG"
+  },
+  {
+    "input": "-.- --",
+    "output": "KM"
+  },
+  {
+    "input": "--.- --",
+    "output": "QM"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": ".- --",
+    "output": "AM"
+  },
+  {
+    "input": ".--- ...",
+    "output": "JS"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": "--. ..-.",
+    "output": "GF"
+  },
+  {
+    "input": "-.. -.-.",
+    "output": "DC"
+  },
+  {
+    "input": ".--- -..",
+    "output": "JD"
+  },
+  {
+    "input": ". -.-.",
+    "output": "EC"
+  },
+  {
+    "input": ".... -.-.",
+    "output": "HC"
+  },
+  {
+    "input": ".-- -.",
+    "output": "WN"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": ".--. .-",
+    "output": "PA"
+  },
+  {
+    "input": ".-. .--.",
+    "output": "RP"
+  },
+  {
+    "input": "-. -.",
+    "output": "NN"
+  },
+  {
+    "input": "-.-- --",
+    "output": "YM"
+  },
+  {
+    "input": "-. -.",
+    "output": "NN"
+  },
+  {
+    "input": "-.- -.--",
+    "output": "KY"
+  },
+  {
+    "input": "--. ..-",
+    "output": "GU"
+  },
+  {
+    "input": "-..- -.--",
+    "output": "XY"
+  },
+  {
+    "input": "..- ..-",
+    "output": "UU"
+  },
+  {
+    "input": "-..- ---",
+    "output": "XO"
+  },
+  {
+    "input": "... .-.",
+    "output": "SR"
+  },
+  {
+    "input": "--.- ..",
+    "output": "QI"
+  },
+  {
+    "input": "-... --.-",
+    "output": "BQ"
+  },
+  {
+    "input": "-.- --.-",
+    "output": "KQ"
+  },
+  {
+    "input": "- ...-",
+    "output": "TV"
+  },
+  {
+    "input": "-... --.-",
+    "output": "BQ"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": ".--. --.",
+    "output": "PG"
+  },
+  {
+    "input": ".-.. -",
+    "output": "LT"
+  },
+  {
+    "input": "--. .--.",
+    "output": "GP"
+  },
+  {
+    "input": "... .--",
+    "output": "SW"
+  },
+  {
+    "input": ".- ...",
+    "output": "AS"
+  },
+  {
+    "input": "-.-- .-.",
+    "output": "YR"
+  },
+  {
+    "input": "-.- .-..",
+    "output": "KL"
+  },
+  {
+    "input": "-.-- --.",
+    "output": "YG"
+  },
+  {
+    "input": "-.- .-..",
+    "output": "KL"
+  },
+  {
+    "input": "... ...-",
+    "output": "SV"
+  },
+  {
+    "input": ".-- -.-.",
+    "output": "WC"
+  },
+  {
+    "input": ".--- .--.",
+    "output": "JP"
+  },
+  {
+    "input": "-.. .-.",
+    "output": "DR"
+  },
+  {
+    "input": ".. -.-.",
+    "output": "IC"
+  },
+  {
+    "input": ".- -.",
+    "output": "AN"
+  },
+  {
+    "input": "-.- --..",
+    "output": "KZ"
+  },
+  {
+    "input": "--.. .---",
+    "output": "ZJ"
+  },
+  {
+    "input": "--- .",
+    "output": "OE"
+  },
+  {
+    "input": "-- .",
+    "output": "ME"
+  },
+  {
+    "input": "--.- -.--",
+    "output": "QY"
+  },
+  {
+    "input": "...- -..",
+    "output": "VD"
+  },
+  {
+    "input": ".... .--.",
+    "output": "HP"
+  },
+  {
+    "input": "-- ...",
+    "output": "MS"
+  },
+  {
+    "input": "-..- -..",
+    "output": "XD"
+  },
+  {
+    "input": ".--- -..-",
+    "output": "JX"
+  },
+  {
+    "input": "- -.--",
+    "output": "TY"
+  },
+  {
+    "input": ".... -",
+    "output": "HT"
+  },
+  {
+    "input": "-..- ...",
+    "output": "XS"
+  },
+  {
+    "input": "-.-. -.-.",
+    "output": "CC"
+  },
+  {
+    "input": "--.- .--.",
+    "output": "QP"
+  },
+  {
+    "input": "--.. .-..",
+    "output": "ZL"
+  },
+  {
+    "input": "..-. --",
+    "output": "FM"
+  },
+  {
+    "input": ".- .",
+    "output": "AE"
+  },
+  {
+    "input": "-..- -..-",
+    "output": "XX"
+  },
+  {
+    "input": ".- --.-",
+    "output": "AQ"
+  },
+  {
+    "input": ".... ...",
+    "output": "HS"
+  },
+  {
+    "input": "--. -..-",
+    "output": "GX"
+  },
+  {
+    "input": "-.-- -.",
+    "output": "YN"
+  },
+  {
+    "input": ".--- .---",
+    "output": "JJ"
+  },
+  {
+    "input": ". .-",
+    "output": "EA"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": ".--- ..-.",
+    "output": "JF"
+  },
+  {
+    "input": "-.-. ....",
+    "output": "CH"
+  },
+  {
+    "input": "-.- ....",
+    "output": "KH"
+  },
+  {
+    "input": "..-. --.-",
+    "output": "FQ"
+  },
+  {
+    "input": "..-. -...",
+    "output": "FB"
+  },
+  {
+    "input": "--. -",
+    "output": "GT"
+  },
+  {
+    "input": "--. ....",
+    "output": "GH"
+  },
+  {
+    "input": ". ---",
+    "output": "EO"
+  },
+  {
+    "input": "... --.-",
+    "output": "SQ"
+  },
+  {
+    "input": "... ..-",
+    "output": "SU"
+  },
+  {
+    "input": "... ...-",
+    "output": "SV"
+  },
+  {
+    "input": "-. --",
+    "output": "NM"
+  },
+  {
+    "input": "--.. ..",
+    "output": "ZI"
+  },
+  {
+    "input": ".. -.--",
+    "output": "IY"
+  },
+  {
+    "input": "--.- .",
+    "output": "QE"
+  },
+  {
+    "input": "--.. --.",
+    "output": "ZG"
+  },
+  {
+    "input": "... --.",
+    "output": "SG"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": "--. -..",
+    "output": "GD"
+  },
+  {
+    "input": "- .",
+    "output": "TE"
+  },
+  {
+    "input": ".--. -.",
+    "output": "PN"
+  },
+  {
+    "input": "-.- .-..",
+    "output": "KL"
+  },
+  {
+    "input": ".-.. --",
+    "output": "LM"
+  },
+  {
+    "input": ".--- -..",
+    "output": "JD"
+  },
+  {
+    "input": ".-- -",
+    "output": "WT"
+  },
+  {
+    "input": ".--- .-",
+    "output": "JA"
+  },
+  {
+    "input": "...- .-",
+    "output": "VA"
+  },
+  {
+    "input": ".--- .--.",
+    "output": "JP"
+  },
+  {
+    "input": "-. -...",
+    "output": "NB"
+  },
+  {
+    "input": "... --",
+    "output": "SM"
+  },
+  {
+    "input": ".-.. ..",
+    "output": "LI"
+  },
+  {
+    "input": "-.- -...",
+    "output": "KB"
+  },
+  {
+    "input": "--.- ...-",
+    "output": "QV"
+  },
+  {
+    "input": "- ..",
+    "output": "TI"
+  },
+  {
+    "input": ".-. -.",
+    "output": "RN"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": ".- -.--",
+    "output": "AY"
+  },
+  {
+    "input": ".-- .-",
+    "output": "WA"
+  },
+  {
+    "input": ".-- --",
+    "output": "WM"
+  },
+  {
+    "input": "--.- .-..",
+    "output": "QL"
+  },
+  {
+    "input": "...- -.-",
+    "output": "VK"
+  },
+  {
+    "input": "-. --.-",
+    "output": "NQ"
+  },
+  {
+    "input": "-. -.--",
+    "output": "NY"
+  },
+  {
+    "input": "-.-- .--",
+    "output": "YW"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": "-.-- ..",
+    "output": "YI"
+  },
+  {
+    "input": "-. --..",
+    "output": "NZ"
+  },
+  {
+    "input": "-.-- .-..",
+    "output": "YL"
+  },
+  {
+    "input": ".- ..-.",
+    "output": "AF"
+  },
+  {
+    "input": ".-- .--",
+    "output": "WW"
+  },
+  {
+    "input": "--- .-",
+    "output": "OA"
+  },
+  {
+    "input": "--.- .-",
+    "output": "QA"
+  },
+  {
+    "input": "-..- ---",
+    "output": "XO"
+  },
+  {
+    "input": ". .--",
+    "output": "EW"
+  },
+  {
+    "input": "--- .--.",
+    "output": "OP"
+  },
+  {
+    "input": "--.- .---",
+    "output": "QJ"
+  },
+  {
+    "input": "--. --.",
+    "output": "GG"
+  },
+  {
+    "input": "- .---",
+    "output": "TJ"
+  },
+  {
+    "input": "--.- .--.",
+    "output": "QP"
+  },
+  {
+    "input": ".-. ...",
+    "output": "RS"
+  },
+  {
+    "input": "- ..",
+    "output": "TI"
+  },
+  {
+    "input": "-- --..",
+    "output": "MZ"
+  },
+  {
+    "input": "-.. -.",
+    "output": "DN"
+  },
+  {
+    "input": ".--. ....",
+    "output": "PH"
+  },
+  {
+    "input": "...- .--.",
+    "output": "VP"
+  },
+  {
+    "input": "-. -.-",
+    "output": "NK"
+  },
+  {
+    "input": "-. ...-",
+    "output": "NV"
+  },
+  {
+    "input": ".... --",
+    "output": "HM"
+  },
+  {
+    "input": ".. ..-",
+    "output": "IU"
+  },
+  {
+    "input": "-.- -...",
+    "output": "KB"
+  },
+  {
+    "input": ".-. ...-",
+    "output": "RV"
+  },
+  {
+    "input": ".-.. --",
+    "output": "LM"
+  },
+  {
+    "input": "...- .--.",
+    "output": "VP"
+  },
+  {
+    "input": ".--- ..-",
+    "output": "JU"
+  },
+  {
+    "input": "... ...-",
+    "output": "SV"
+  },
+  {
+    "input": "...- .--",
+    "output": "VW"
+  },
+  {
+    "input": "-..- --.",
+    "output": "XG"
+  },
+  {
+    "input": ".--. .--",
+    "output": "PW"
+  },
+  {
+    "input": "-... -..-",
+    "output": "BX"
+  },
+  {
+    "input": "-... -",
+    "output": "BT"
+  },
+  {
+    "input": "... ....",
+    "output": "SH"
+  },
+  {
+    "input": "-.-. ..-.",
+    "output": "CF"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": ".--. --..",
+    "output": "PZ"
+  },
+  {
+    "input": "- -...",
+    "output": "TB"
+  },
+  {
+    "input": "-. -.--",
+    "output": "NY"
+  },
+  {
+    "input": "-..- ---",
+    "output": "XO"
+  },
+  {
+    "input": "...- -..-",
+    "output": "VX"
+  },
+  {
+    "input": "... -.--",
+    "output": "SY"
+  },
+  {
+    "input": "-... -..-",
+    "output": "BX"
+  },
+  {
+    "input": ". -...",
+    "output": "EB"
+  },
+  {
+    "input": "-... --.",
+    "output": "BG"
+  },
+  {
+    "input": "-.- ...",
+    "output": "KS"
+  },
+  {
+    "input": "--.. -.",
+    "output": "ZN"
+  },
+  {
+    "input": "..-. --",
+    "output": "FM"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": ".-- ..",
+    "output": "WI"
+  },
+  {
+    "input": ".--- -.--",
+    "output": "JY"
+  },
+  {
+    "input": ".-.. .-",
+    "output": "LA"
+  },
+  {
+    "input": ".--- .--.",
+    "output": "JP"
+  },
+  {
+    "input": "-... .--.",
+    "output": "BP"
+  },
+  {
+    "input": "...- --.",
+    "output": "VG"
+  },
+  {
+    "input": ".... .-.",
+    "output": "HR"
+  },
+  {
+    "input": "--. .---",
+    "output": "GJ"
+  },
+  {
+    "input": ".-.. -.--",
+    "output": "LY"
+  },
+  {
+    "input": "-. --.",
+    "output": "NG"
+  },
+  {
+    "input": ".--- -..-",
+    "output": "JX"
+  },
+  {
+    "input": ".-.. .--.",
+    "output": "LP"
+  },
+  {
+    "input": "-..- .-",
+    "output": "XA"
+  },
+  {
+    "input": "--.- .",
+    "output": "QE"
+  },
+  {
+    "input": "-.-. -.-",
+    "output": "CK"
+  },
+  {
+    "input": "--.- ...-",
+    "output": "QV"
+  },
+  {
+    "input": "--. -.-.",
+    "output": "GC"
+  },
+  {
+    "input": "...- --.",
+    "output": "VG"
+  },
+  {
+    "input": "..-. .",
+    "output": "FE"
+  },
+  {
+    "input": ".--- ..-.",
+    "output": "JF"
+  },
+  {
+    "input": ".-. --..",
+    "output": "RZ"
+  },
+  {
+    "input": "- ...",
+    "output": "TS"
+  },
+  {
+    "input": "--.- ....",
+    "output": "QH"
+  },
+  {
+    "input": ".-- -.--",
+    "output": "WY"
+  },
+  {
+    "input": ".. -.-",
+    "output": "IK"
+  },
+  {
+    "input": "--- -...",
+    "output": "OB"
+  },
+  {
+    "input": "-- .--",
+    "output": "MW"
+  },
+  {
+    "input": "..- --.",
+    "output": "UG"
+  },
+  {
+    "input": "... .-..",
+    "output": "SL"
+  },
+  {
+    "input": "-.- --.",
+    "output": "KG"
+  },
+  {
+    "input": ".--. -..-",
+    "output": "PX"
+  },
+  {
+    "input": ".-- .-.",
+    "output": "WR"
+  },
+  {
+    "input": "..-. .-.",
+    "output": "FR"
+  },
+  {
+    "input": ".... -...",
+    "output": "HB"
+  },
+  {
+    "input": ".--- --..",
+    "output": "JZ"
+  },
+  {
+    "input": ".. -.-.",
+    "output": "IC"
+  },
+  {
+    "input": "-.-. -.",
+    "output": "CN"
+  },
+  {
+    "input": ".-- --..",
+    "output": "WZ"
+  },
+  {
+    "input": "-. -...",
+    "output": "NB"
+  },
+  {
+    "input": ".- .--",
+    "output": "AW"
+  },
+  {
+    "input": ".--- -",
+    "output": "JT"
+  },
+  {
+    "input": "-..- .---",
+    "output": "XJ"
+  },
+  {
+    "input": "-..- -..-",
+    "output": "XX"
+  },
+  {
+    "input": ".-- -..-",
+    "output": "WX"
+  },
+  {
+    "input": "..- .--",
+    "output": "UW"
+  },
+  {
+    "input": "-.. ---",
+    "output": "DO"
+  },
+  {
+    "input": ".. -.--",
+    "output": "IY"
+  },
+  {
+    "input": "..- -..-",
+    "output": "UX"
+  },
+  {
+    "input": ".- -.-.",
+    "output": "AC"
+  },
+  {
+    "input": ".-- .-.",
+    "output": "WR"
+  },
+  {
+    "input": ".--- -.-.",
+    "output": "JC"
+  },
+  {
+    "input": ".- ..-",
+    "output": "AU"
+  },
+  {
+    "input": "..-. --.",
+    "output": "FG"
+  },
+  {
+    "input": "- --.-",
+    "output": "TQ"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": "--.- .",
+    "output": "QE"
+  },
+  {
+    "input": "-.-- --.",
+    "output": "YG"
+  },
+  {
+    "input": "-.- -...",
+    "output": "KB"
+  },
+  {
+    "input": ".... .-",
+    "output": "HA"
+  },
+  {
+    "input": "--.- .-.",
+    "output": "QR"
+  },
+  {
+    "input": "... ..-",
+    "output": "SU"
+  },
+  {
+    "input": "..- .--.",
+    "output": "UP"
+  },
+  {
+    "input": ".... .--",
+    "output": "HW"
+  },
+  {
+    "input": "...- .--.",
+    "output": "VP"
+  },
+  {
+    "input": "..- -.-",
+    "output": "UK"
+  },
+  {
+    "input": "--.- .--.",
+    "output": "QP"
+  },
+  {
+    "input": "-. -.-",
+    "output": "NK"
+  },
+  {
+    "input": ".-. .--.",
+    "output": "RP"
+  },
+  {
+    "input": "...- ..-.",
+    "output": "VF"
+  },
+  {
+    "input": "-. --",
+    "output": "NM"
+  },
+  {
+    "input": "--- --.-",
+    "output": "OQ"
+  },
+  {
+    "input": "-.- .--.",
+    "output": "KP"
+  },
+  {
+    "input": ".... -.--",
+    "output": "HY"
+  },
+  {
+    "input": "..-. .-..",
+    "output": "FL"
+  },
+  {
+    "input": "--.- ..-.",
+    "output": "QF"
+  },
+  {
+    "input": "-... .",
+    "output": "BE"
+  },
+  {
+    "input": ". --.-",
+    "output": "EQ"
+  },
+  {
+    "input": "-. .-",
+    "output": "NA"
+  },
+  {
+    "input": "- ....",
+    "output": "TH"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": "--.- --..",
+    "output": "QZ"
+  },
+  {
+    "input": "-... ....",
+    "output": "BH"
+  },
+  {
+    "input": "- .-",
+    "output": "TA"
+  },
+  {
+    "input": "- -..",
+    "output": "TD"
+  },
+  {
+    "input": "...- --",
+    "output": "VM"
+  },
+  {
+    "input": "--.. --",
+    "output": "ZM"
+  },
+  {
+    "input": "..- .---",
+    "output": "UJ"
+  },
+  {
+    "input": ".-.. -..-",
+    "output": "LX"
+  },
+  {
+    "input": "... --..",
+    "output": "SZ"
+  },
+  {
+    "input": "-..- --.-",
+    "output": "XQ"
+  },
+  {
+    "input": ".-- -.-.",
+    "output": "WC"
+  },
+  {
+    "input": "- .-",
+    "output": "TA"
+  },
+  {
+    "input": ".-.. -.-.",
+    "output": "LC"
+  },
+  {
+    "input": ".. ...-",
+    "output": "IV"
+  },
+  {
+    "input": "--- .--",
+    "output": "OW"
+  },
+  {
+    "input": ".. .-",
+    "output": "IA"
+  },
+  {
+    "input": ".--- ....",
+    "output": "JH"
+  },
+  {
+    "input": ".- -",
+    "output": "AT"
+  },
+  {
+    "input": ".-.. .-",
+    "output": "LA"
+  },
+  {
+    "input": "-. .-.",
+    "output": "NR"
+  },
+  {
+    "input": "-- -..-",
+    "output": "MX"
+  },
+  {
+    "input": "-.. ..-",
+    "output": "DU"
+  },
+  {
+    "input": "--.- --",
+    "output": "QM"
+  },
+  {
+    "input": "-.-. .---",
+    "output": "CJ"
+  },
+  {
+    "input": "-- .",
+    "output": "ME"
+  },
+  {
+    "input": "--- -.-.",
+    "output": "OC"
+  },
+  {
+    "input": "...- -.-",
+    "output": "VK"
+  },
+  {
+    "input": ". .-",
+    "output": "EA"
+  },
+  {
+    "input": "--.- ...-",
+    "output": "QV"
+  },
+  {
+    "input": "--.. ...-",
+    "output": "ZV"
+  },
+  {
+    "input": "..-. -.--",
+    "output": "FY"
+  },
+  {
+    "input": "-.. .-.",
+    "output": "DR"
+  },
+  {
+    "input": "-.- -..-",
+    "output": "KX"
+  },
+  {
+    "input": ".--. --..",
+    "output": "PZ"
+  },
+  {
+    "input": "-. --",
+    "output": "NM"
+  },
+  {
+    "input": "--. .-..",
+    "output": "GL"
+  },
+  {
+    "input": ".-. -.-",
+    "output": "RK"
+  },
+  {
+    "input": "-. -...",
+    "output": "NB"
+  },
+  {
+    "input": ".-.. ..-.",
+    "output": "LF"
+  },
+  {
+    "input": ".-.. .--",
+    "output": "LW"
+  },
+  {
+    "input": "-- -.",
+    "output": "MN"
+  },
+  {
+    "input": "-.- -.--",
+    "output": "KY"
+  },
+  {
+    "input": ".... -.-",
+    "output": "HK"
+  },
+  {
+    "input": "--. --.",
+    "output": "GG"
+  },
+  {
+    "input": ".-- .",
+    "output": "WE"
+  },
+  {
+    "input": "-- -.-.",
+    "output": "MC"
+  },
+  {
+    "input": "-. ...-",
+    "output": "NV"
+  },
+  {
+    "input": "-. -",
+    "output": "NT"
+  },
+  {
+    "input": ".--. --..",
+    "output": "PZ"
+  },
+  {
+    "input": "-..- --.-",
+    "output": "XQ"
+  },
+  {
+    "input": "... .",
+    "output": "SE"
+  },
+  {
+    "input": "-- .-",
+    "output": "MA"
+  },
+  {
+    "input": "-..- .-.",
+    "output": "XR"
+  },
+  {
+    "input": "-.- .--.",
+    "output": "KP"
+  },
+  {
+    "input": ".--. --.",
+    "output": "PG"
+  },
+  {
+    "input": "-... .--.",
+    "output": "BP"
+  },
+  {
+    "input": ".--. ...",
+    "output": "PS"
+  },
+  {
+    "input": "-.-- ...-",
+    "output": "YV"
+  },
+  {
+    "input": ".--- --.-",
+    "output": "JQ"
+  },
+  {
+    "input": "-. -.--",
+    "output": "NY"
+  },
+  {
+    "input": "-. ..",
+    "output": "NI"
+  },
+  {
+    "input": "-.-- -.-",
+    "output": "YK"
+  },
+  {
+    "input": ".--. -.-",
+    "output": "PK"
+  },
+  {
+    "input": "--. -.--",
+    "output": "GY"
+  },
+  {
+    "input": "-.. -..-",
+    "output": "DX"
+  },
+  {
+    "input": ".- .-",
+    "output": "AA"
+  },
+  {
+    "input": "-.- --..",
+    "output": "KZ"
+  },
+  {
+    "input": "..-. -",
+    "output": "FT"
+  },
+  {
+    "input": "-.-- --..",
+    "output": "YZ"
+  },
+  {
+    "input": "-.-. -.",
+    "output": "CN"
+  },
+  {
+    "input": ".-.. .--.",
+    "output": "LP"
+  },
+  {
+    "input": ".--- -...",
+    "output": "JB"
+  },
+  {
+    "input": "..-. --",
+    "output": "FM"
+  },
+  {
+    "input": "... ....",
+    "output": "SH"
+  },
+  {
+    "input": "-.. ...-",
+    "output": "DV"
+  },
+  {
+    "input": ". ..",
+    "output": "EI"
+  },
+  {
+    "input": "--. .",
+    "output": "GE"
+  },
+  {
+    "input": "-. ---",
+    "output": "NO"
+  },
+  {
+    "input": ".- -...",
+    "output": "AB"
+  },
+  {
+    "input": ".-. --.-",
+    "output": "RQ"
+  },
+  {
+    "input": "-. -.-.",
+    "output": "NC"
+  },
+  {
+    "input": ".... ..-.",
+    "output": "HF"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": ".-- -.",
+    "output": "WN"
+  },
+  {
+    "input": "... ..-",
+    "output": "SU"
+  },
+  {
+    "input": ".- --..",
+    "output": "AZ"
+  },
+  {
+    "input": "--. --..",
+    "output": "GZ"
+  },
+  {
+    "input": "- ....",
+    "output": "TH"
+  },
+  {
+    "input": "-.-. .---",
+    "output": "CJ"
+  },
+  {
+    "input": ".-.. -.--",
+    "output": "LY"
+  },
+  {
+    "input": "-.- ..",
+    "output": "KI"
+  },
+  {
+    "input": ".-. -..",
+    "output": "RD"
+  },
+  {
+    "input": "--- -...",
+    "output": "OB"
+  },
+  {
+    "input": "-- --.-",
+    "output": "MQ"
+  },
+  {
+    "input": ".--- --..",
+    "output": "JZ"
+  },
+  {
+    "input": "--. -.",
+    "output": "GN"
+  },
+  {
+    "input": ".--- --",
+    "output": "JM"
+  },
+  {
+    "input": ".-. --",
+    "output": "RM"
+  },
+  {
+    "input": ".... -..",
+    "output": "HD"
+  },
+  {
+    "input": "- ...",
+    "output": "TS"
+  },
+  {
+    "input": ".... .--.",
+    "output": "HP"
+  },
+  {
+    "input": ".--. ..-.",
+    "output": "PF"
+  },
+  {
+    "input": ".... -.",
+    "output": "HN"
+  },
+  {
+    "input": ". ....",
+    "output": "EH"
+  },
+  {
+    "input": ".. ..",
+    "output": "II"
+  },
+  {
+    "input": ".. -.",
+    "output": "IN"
+  },
+  {
+    "input": "--. -.-",
+    "output": "GK"
+  },
+  {
+    "input": "-... .--",
+    "output": "BW"
+  },
+  {
+    "input": ".. -..",
+    "output": "ID"
+  },
+  {
+    "input": "-.-. -.-.",
+    "output": "CC"
+  },
+  {
+    "input": "-..- ---",
+    "output": "XO"
+  },
+  {
+    "input": "-- -..",
+    "output": "MD"
+  },
+  {
+    "input": "- --",
+    "output": "TM"
+  },
+  {
+    "input": ".. ..-",
+    "output": "IU"
+  },
+  {
+    "input": ".... ...-",
+    "output": "HV"
+  },
+  {
+    "input": "-... --.",
+    "output": "BG"
+  },
+  {
+    "input": ".--. ..",
+    "output": "PI"
+  },
+  {
+    "input": "-... ....",
+    "output": "BH"
+  },
+  {
+    "input": "... .---",
+    "output": "SJ"
+  },
+  {
+    "input": "-- .--",
+    "output": "MW"
+  },
+  {
+    "input": "-.- -.-",
+    "output": "KK"
+  },
+  {
+    "input": "...- -...",
+    "output": "VB"
+  },
+  {
+    "input": "... -...",
+    "output": "SB"
+  },
+  {
+    "input": "-.-- --..",
+    "output": "YZ"
+  },
+  {
+    "input": "--.- ---",
+    "output": "QO"
+  },
+  {
+    "input": ".-- -.-.",
+    "output": "WC"
+  },
+  {
+    "input": ". ...-",
+    "output": "EV"
+  },
+  {
+    "input": "...- ..",
+    "output": "VI"
+  },
+  {
+    "input": "--.- ....",
+    "output": "QH"
+  },
+  {
+    "input": "-. -.--",
+    "output": "NY"
+  },
+  {
+    "input": "-.. -...",
+    "output": "DB"
+  },
+  {
+    "input": "- ---",
+    "output": "TO"
+  },
+  {
+    "input": "..-. .",
+    "output": "FE"
+  },
+  {
+    "input": "... ...-",
+    "output": "SV"
+  },
+  {
+    "input": ".- -.-.",
+    "output": "AC"
+  },
+  {
+    "input": "-- --.",
+    "output": "MG"
+  },
+  {
+    "input": ".--- -...",
+    "output": "JB"
+  },
+  {
+    "input": ".-- -.-.",
+    "output": "WC"
+  },
+  {
+    "input": ".--. -..",
+    "output": "PD"
+  },
+  {
+    "input": "-.- -",
+    "output": "KT"
+  },
+  {
+    "input": "- ..-.",
+    "output": "TF"
+  },
+  {
+    "input": "..-. -..",
+    "output": "FD"
+  },
+  {
+    "input": ".-.. --..",
+    "output": "LZ"
+  },
+  {
+    "input": "...- ---",
+    "output": "VO"
+  },
+  {
+    "input": "-- .---",
+    "output": "MJ"
+  },
+  {
+    "input": "...- ..-.",
+    "output": "VF"
+  },
+  {
+    "input": "--.. .-.",
+    "output": "ZR"
+  },
+  {
+    "input": "--.. --",
+    "output": "ZM"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": "-.. --.-",
+    "output": "DQ"
+  },
+  {
+    "input": ". .-.",
+    "output": "ER"
+  },
+  {
+    "input": "..-. ....",
+    "output": "FH"
+  },
+  {
+    "input": ".- -",
+    "output": "AT"
+  },
+  {
+    "input": ".-.. .-..",
+    "output": "LL"
+  },
+  {
+    "input": "--.. --",
+    "output": "ZM"
+  },
+  {
+    "input": ".--- -.",
+    "output": "JN"
+  },
+  {
+    "input": "-.- --.",
+    "output": "KG"
+  },
+  {
+    "input": "-. .-..",
+    "output": "NL"
+  },
+  {
+    "input": "-... .-..",
+    "output": "BL"
+  },
+  {
+    "input": ".-- -.--",
+    "output": "WY"
+  },
+  {
+    "input": ". .--",
+    "output": "EW"
+  },
+  {
+    "input": ".-.. -.-",
+    "output": "LK"
+  },
+  {
+    "input": "--- .---",
+    "output": "OJ"
+  },
+  {
+    "input": ".--- -...",
+    "output": "JB"
+  },
+  {
+    "input": ".-.. -",
+    "output": "LT"
+  },
+  {
+    "input": ".--- .-",
+    "output": "JA"
+  },
+  {
+    "input": "-.. .--",
+    "output": "DW"
+  },
+  {
+    "input": ".-- ..-",
+    "output": "WU"
+  },
+  {
+    "input": ".-.. --",
+    "output": "LM"
+  },
+  {
+    "input": "--. .-..",
+    "output": "GL"
+  },
+  {
+    "input": "-- -...",
+    "output": "MB"
+  },
+  {
+    "input": ".. .---",
+    "output": "IJ"
+  },
+  {
+    "input": "--.- ---",
+    "output": "QO"
+  },
+  {
+    "input": "--.- ..-",
+    "output": "QU"
+  },
+  {
+    "input": "-.. -..",
+    "output": "DD"
+  },
+  {
+    "input": ".--. -.",
+    "output": "PN"
+  },
+  {
+    "input": ".--. ..-",
+    "output": "PU"
+  },
+  {
+    "input": ".-.. -.-.",
+    "output": "LC"
+  },
+  {
+    "input": ".... .-.",
+    "output": "HR"
+  },
+  {
+    "input": "..-. -..",
+    "output": "FD"
+  },
+  {
+    "input": ".- .-",
+    "output": "AA"
+  },
+  {
+    "input": "--. -.--",
+    "output": "GY"
+  },
+  {
+    "input": "- -.",
+    "output": "TN"
+  },
+  {
+    "input": "- .--.",
+    "output": "TP"
+  },
+  {
+    "input": "-.. -.-.",
+    "output": "DC"
+  },
+  {
+    "input": "--.- -...",
+    "output": "QB"
+  },
+  {
+    "input": ".-- -.",
+    "output": "WN"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": "-.-- -..-",
+    "output": "YX"
+  },
+  {
+    "input": "--.- -...",
+    "output": "QB"
+  },
+  {
+    "input": "..- -..",
+    "output": "UD"
+  },
+  {
+    "input": "--.- .-.",
+    "output": "QR"
+  },
+  {
+    "input": "... .--.",
+    "output": "SP"
+  },
+  {
+    "input": "-- -..-",
+    "output": "MX"
+  },
+  {
+    "input": "..-. ....",
+    "output": "FH"
+  },
+  {
+    "input": "-- .--",
+    "output": "MW"
+  },
+  {
+    "input": ".-. .-.",
+    "output": "RR"
+  },
+  {
+    "input": ".--. --.",
+    "output": "PG"
+  },
+  {
+    "input": "- .---",
+    "output": "TJ"
+  },
+  {
+    "input": "-.-- ...-",
+    "output": "YV"
+  },
+  {
+    "input": "--.- -.",
+    "output": "QN"
+  },
+  {
+    "input": ".-- --.-",
+    "output": "WQ"
+  },
+  {
+    "input": "-.. ....",
+    "output": "DH"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": "--. --",
+    "output": "GM"
+  },
+  {
+    "input": "..-. -.-.",
+    "output": "FC"
+  },
+  {
+    "input": "--. .-",
+    "output": "GA"
+  },
+  {
+    "input": ".- ....",
+    "output": "AH"
+  },
+  {
+    "input": "...- -.-",
+    "output": "VK"
+  },
+  {
+    "input": "--. -",
+    "output": "GT"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": "-. ...-",
+    "output": "NV"
+  },
+  {
+    "input": "..- --.-",
+    "output": "UQ"
+  },
+  {
+    "input": "- ..-.",
+    "output": "TF"
+  },
+  {
+    "input": "--. ...-",
+    "output": "GV"
+  },
+  {
+    "input": "-.-- --.-",
+    "output": "YQ"
+  },
+  {
+    "input": ".--- .-.",
+    "output": "JR"
+  },
+  {
+    "input": "-.- ..",
+    "output": "KI"
+  },
+  {
+    "input": "--.- ...",
+    "output": "QS"
+  },
+  {
+    "input": "...- ....",
+    "output": "VH"
+  },
+  {
+    "input": "--. --.-",
+    "output": "GQ"
+  },
+  {
+    "input": ".-. ....",
+    "output": "RH"
+  },
+  {
+    "input": ".--- -..",
+    "output": "JD"
+  },
+  {
+    "input": ". -.-",
+    "output": "EK"
+  },
+  {
+    "input": ".-- --..",
+    "output": "WZ"
+  },
+  {
+    "input": ".. ---",
+    "output": "IO"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": ".-. --",
+    "output": "RM"
+  },
+  {
+    "input": "-. ...",
+    "output": "NS"
+  },
+  {
+    "input": ".--- -",
+    "output": "JT"
+  },
+  {
+    "input": "--- ..-.",
+    "output": "OF"
+  },
+  {
+    "input": ".. .-",
+    "output": "IA"
+  },
+  {
+    "input": ".. .---",
+    "output": "IJ"
+  },
+  {
+    "input": "..- --..",
+    "output": "UZ"
+  },
+  {
+    "input": "-.-. -.",
+    "output": "CN"
+  },
+  {
+    "input": "-.-- .",
+    "output": "YE"
+  },
+  {
+    "input": ".-- -.",
+    "output": "WN"
+  },
+  {
+    "input": "-.-- .",
+    "output": "YE"
+  },
+  {
+    "input": "-... --.",
+    "output": "BG"
+  },
+  {
+    "input": ".--- ...-",
+    "output": "JV"
+  },
+  {
+    "input": "-.-- --..",
+    "output": "YZ"
+  },
+  {
+    "input": ". -",
+    "output": "ET"
+  },
+  {
+    "input": "--.- ...-",
+    "output": "QV"
+  },
+  {
+    "input": "--. ..-",
+    "output": "GU"
+  },
+  {
+    "input": "-... --..",
+    "output": "BZ"
+  },
+  {
+    "input": ".-.. .-.",
+    "output": "LR"
+  },
+  {
+    "input": ".... .-..",
+    "output": "HL"
+  },
+  {
+    "input": "--. -.-",
+    "output": "GK"
+  },
+  {
+    "input": "-- -..-",
+    "output": "MX"
+  },
+  {
+    "input": ".- .",
+    "output": "AE"
+  },
+  {
+    "input": "...- .",
+    "output": "VE"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": ".-- -..",
+    "output": "WD"
+  },
+  {
+    "input": "--. .--.",
+    "output": "GP"
+  },
+  {
+    "input": "..-. -...",
+    "output": "FB"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": "- .--.",
+    "output": "TP"
+  },
+  {
+    "input": "--.. ---",
+    "output": "ZO"
+  },
+  {
+    "input": ".-.. .--",
+    "output": "LW"
+  },
+  {
+    "input": "...- ...",
+    "output": "VS"
+  },
+  {
+    "input": "--- .-.",
+    "output": "OR"
+  },
+  {
+    "input": ".... ....",
+    "output": "HH"
+  },
+  {
+    "input": ".- .-.",
+    "output": "AR"
+  },
+  {
+    "input": ".. -.",
+    "output": "IN"
+  },
+  {
+    "input": ".--. .-",
+    "output": "PA"
+  },
+  {
+    "input": ". .--.",
+    "output": "EP"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": "... .--",
+    "output": "SW"
+  },
+  {
+    "input": "-. .",
+    "output": "NE"
+  },
+  {
+    "input": "...- .-",
+    "output": "VA"
+  },
+  {
+    "input": "-.-- --..",
+    "output": "YZ"
+  },
+  {
+    "input": ".... ...-",
+    "output": "HV"
+  },
+  {
+    "input": "--.. ...-",
+    "output": "ZV"
+  },
+  {
+    "input": "--.- --.-",
+    "output": "QQ"
+  },
+  {
+    "input": "--.- .-",
+    "output": "QA"
+  },
+  {
+    "input": "-- --.",
+    "output": "MG"
+  },
+  {
+    "input": "--.- ..-.",
+    "output": "QF"
+  },
+  {
+    "input": ".. -..",
+    "output": "ID"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": "..- .-..",
+    "output": "UL"
+  },
+  {
+    "input": "--.- ....",
+    "output": "QH"
+  },
+  {
+    "input": "-..- -.-.",
+    "output": "XC"
+  },
+  {
+    "input": "..- -",
+    "output": "UT"
+  },
+  {
+    "input": "..-. -..",
+    "output": "FD"
+  },
+  {
+    "input": "-.- ....",
+    "output": "KH"
+  },
+  {
+    "input": "--.- .-..",
+    "output": "QL"
+  },
+  {
+    "input": "...- ...",
+    "output": "VS"
+  },
+  {
+    "input": "--.. --..",
+    "output": "ZZ"
+  },
+  {
+    "input": "- .-..",
+    "output": "TL"
+  },
+  {
+    "input": ".... -.-.",
+    "output": "HC"
+  },
+  {
+    "input": ".- --..",
+    "output": "AZ"
+  },
+  {
+    "input": "..- .--",
+    "output": "UW"
+  },
+  {
+    "input": "--- ....",
+    "output": "OH"
+  },
+  {
+    "input": ".--. --.-",
+    "output": "PQ"
+  },
+  {
+    "input": "--.. .---",
+    "output": "ZJ"
+  },
+  {
+    "input": "-- ...",
+    "output": "MS"
+  },
+  {
+    "input": ".... ---",
+    "output": "HO"
+  },
+  {
+    "input": "- ...-",
+    "output": "TV"
+  },
+  {
+    "input": "... ...-",
+    "output": "SV"
+  },
+  {
+    "input": "..-. -.-",
+    "output": "FK"
+  },
+  {
+    "input": "-- --",
+    "output": "MM"
+  },
+  {
+    "input": "... -.",
+    "output": "SN"
+  },
+  {
+    "input": "-.. ...",
+    "output": "DS"
+  },
+  {
+    "input": "-.-. --",
+    "output": "CM"
+  },
+  {
+    "input": "--- .--.",
+    "output": "OP"
+  },
+  {
+    "input": "--.- ..-.",
+    "output": "QF"
+  },
+  {
+    "input": ".--- --.",
+    "output": "JG"
+  },
+  {
+    "input": ".-. ..",
+    "output": "RI"
+  },
+  {
+    "input": "-- ..-",
+    "output": "MU"
+  },
+  {
+    "input": ".--. ..",
+    "output": "PI"
+  },
+  {
+    "input": "--.- .--",
+    "output": "QW"
+  },
+  {
+    "input": "--.- --..",
+    "output": "QZ"
+  },
+  {
+    "input": ". .-.",
+    "output": "ER"
+  },
+  {
+    "input": ".-. ...-",
+    "output": "RV"
+  },
+  {
+    "input": "--. -",
+    "output": "GT"
+  },
+  {
+    "input": ".. -..",
+    "output": "ID"
+  },
+  {
+    "input": "- -.",
+    "output": "TN"
+  },
+  {
+    "input": "-- ...",
+    "output": "MS"
+  },
+  {
+    "input": ".. -..",
+    "output": "ID"
+  },
+  {
+    "input": "-- -",
+    "output": "MT"
+  },
+  {
+    "input": "..-. ..-",
+    "output": "FU"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": "-... ...-",
+    "output": "BV"
+  },
+  {
+    "input": ".-- ....",
+    "output": "WH"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": "--- -.-.",
+    "output": "OC"
+  },
+  {
+    "input": "-.- -.-",
+    "output": "KK"
+  },
+  {
+    "input": ".--- .--.",
+    "output": "JP"
+  },
+  {
+    "input": ".-- .",
+    "output": "WE"
+  },
+  {
+    "input": "--. --..",
+    "output": "GZ"
+  },
+  {
+    "input": ". ..-",
+    "output": "EU"
+  },
+  {
+    "input": "-. .--.",
+    "output": "NP"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": "-.. -..",
+    "output": "DD"
+  },
+  {
+    "input": ".- --",
+    "output": "AM"
+  },
+  {
+    "input": "-.. -.--",
+    "output": "DY"
+  },
+  {
+    "input": "... .-.",
+    "output": "SR"
+  },
+  {
+    "input": "-.- -.",
+    "output": "KN"
+  },
+  {
+    "input": "-... --.-",
+    "output": "BQ"
+  },
+  {
+    "input": "-.-- -.-",
+    "output": "YK"
+  },
+  {
+    "input": "... -...",
+    "output": "SB"
+  },
+  {
+    "input": "..- -...",
+    "output": "UB"
+  },
+  {
+    "input": ".-- ..-",
+    "output": "WU"
+  },
+  {
+    "input": "-- ...",
+    "output": "MS"
+  },
+  {
+    "input": "- .-..",
+    "output": "TL"
+  },
+  {
+    "input": ". .",
+    "output": "EE"
+  },
+  {
+    "input": "...- -.--",
+    "output": "VY"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": ".--. -..",
+    "output": "PD"
+  },
+  {
+    "input": "-. .--",
+    "output": "NW"
+  },
+  {
+    "input": "- .",
+    "output": "TE"
+  },
+  {
+    "input": "...- --",
+    "output": "VM"
+  },
+  {
+    "input": ".-. -..-",
+    "output": "RX"
+  },
+  {
+    "input": "-..- -..",
+    "output": "XD"
+  },
+  {
+    "input": "--. ...-",
+    "output": "GV"
+  },
+  {
+    "input": "-.- -.",
+    "output": "KN"
+  },
+  {
+    "input": ".. .---",
+    "output": "IJ"
+  },
+  {
+    "input": "- .-",
+    "output": "TA"
+  },
+  {
+    "input": "-.-. .-.",
+    "output": "CR"
+  },
+  {
+    "input": "-.. ---",
+    "output": "DO"
+  },
+  {
+    "input": "-... -.-.",
+    "output": "BC"
+  },
+  {
+    "input": "--.- ..-.",
+    "output": "QF"
+  },
+  {
+    "input": "-- .-..",
+    "output": "ML"
+  },
+  {
+    "input": ".-.. --",
+    "output": "LM"
+  },
+  {
+    "input": "-.. ....",
+    "output": "DH"
+  },
+  {
+    "input": "... -...",
+    "output": "SB"
+  },
+  {
+    "input": ".. ---",
+    "output": "IO"
+  },
+  {
+    "input": "--.- .-.",
+    "output": "QR"
+  },
+  {
+    "input": "-- -.--",
+    "output": "MY"
+  },
+  {
+    "input": "-.-- ---",
+    "output": "YO"
+  },
+  {
+    "input": ".-. .--.",
+    "output": "RP"
+  },
+  {
+    "input": "-. -.--",
+    "output": "NY"
+  },
+  {
+    "input": "-..- ...-",
+    "output": "XV"
+  },
+  {
+    "input": "-- ....",
+    "output": "MH"
+  },
+  {
+    "input": "... -.-",
+    "output": "SK"
+  },
+  {
+    "input": "-. ...-",
+    "output": "NV"
+  },
+  {
+    "input": "--- .",
+    "output": "OE"
+  },
+  {
+    "input": "-.. --.",
+    "output": "DG"
+  },
+  {
+    "input": "-.- -..",
+    "output": "KD"
+  },
+  {
+    "input": ".--. .-.",
+    "output": "PR"
+  },
+  {
+    "input": ".--- ...-",
+    "output": "JV"
+  },
+  {
+    "input": "- --.-",
+    "output": "TQ"
+  },
+  {
+    "input": "- .-..",
+    "output": "TL"
+  },
+  {
+    "input": "...- .-.",
+    "output": "VR"
+  },
+  {
+    "input": "-.. ....",
+    "output": "DH"
+  },
+  {
+    "input": "--. ---",
+    "output": "GO"
+  },
+  {
+    "input": ".-.. .-..",
+    "output": "LL"
+  },
+  {
+    "input": "-... ...-",
+    "output": "BV"
+  },
+  {
+    "input": ".-. ...",
+    "output": "RS"
+  },
+  {
+    "input": "...- .--",
+    "output": "VW"
+  },
+  {
+    "input": ".. -.--",
+    "output": "IY"
+  },
+  {
+    "input": ".--- -.",
+    "output": "JN"
+  },
+  {
+    "input": ".--. ...-",
+    "output": "PV"
+  },
+  {
+    "input": "-. .-.",
+    "output": "NR"
+  },
+  {
+    "input": "... -..",
+    "output": "SD"
+  },
+  {
+    "input": "-.-- ....",
+    "output": "YH"
+  },
+  {
+    "input": ".. --..",
+    "output": "IZ"
+  },
+  {
+    "input": "--- ....",
+    "output": "OH"
+  },
+  {
+    "input": ".... -.-",
+    "output": "HK"
+  },
+  {
+    "input": ".-.. .--",
+    "output": "LW"
+  },
+  {
+    "input": ".--- -.",
+    "output": "JN"
+  },
+  {
+    "input": "..-. .",
+    "output": "FE"
+  },
+  {
+    "input": ".. -..",
+    "output": "ID"
+  },
+  {
+    "input": "-..- -",
+    "output": "XT"
+  },
+  {
+    "input": "--.. .",
+    "output": "ZE"
+  },
+  {
+    "input": "-.- .-.",
+    "output": "KR"
+  },
+  {
+    "input": "...- -.--",
+    "output": "VY"
+  },
+  {
+    "input": "-.- -.--",
+    "output": "KY"
+  },
+  {
+    "input": "-. ...",
+    "output": "NS"
+  },
+  {
+    "input": "--.. -.-.",
+    "output": "ZC"
+  },
+  {
+    "input": "--- -.--",
+    "output": "OY"
+  },
+  {
+    "input": "- .-..",
+    "output": "TL"
+  },
+  {
+    "input": "-- .---",
+    "output": "MJ"
+  },
+  {
+    "input": "--- ...-",
+    "output": "OV"
+  },
+  {
+    "input": ".... --.",
+    "output": "HG"
+  },
+  {
+    "input": ".--- ..",
+    "output": "JI"
+  },
+  {
+    "input": ".... -..",
+    "output": "HD"
+  },
+  {
+    "input": "--. --",
+    "output": "GM"
+  },
+  {
+    "input": ".--- .-..",
+    "output": "JL"
+  },
+  {
+    "input": "-. -.",
+    "output": "NN"
+  },
+  {
+    "input": "--. --..",
+    "output": "GZ"
+  },
+  {
+    "input": ".- ..",
+    "output": "AI"
+  },
+  {
+    "input": "--.- .-",
+    "output": "QA"
+  },
+  {
+    "input": "-.- .-..",
+    "output": "KL"
+  },
+  {
+    "input": "-.-. .-..",
+    "output": "CL"
+  },
+  {
+    "input": "-..- .--",
+    "output": "XW"
+  },
+  {
+    "input": "-.-. --.-",
+    "output": "CQ"
+  },
+  {
+    "input": "...- -.--",
+    "output": "VY"
+  },
+  {
+    "input": ".-- ..-",
+    "output": "WU"
+  },
+  {
+    "input": ".-.. ..",
+    "output": "LI"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": "-- -.",
+    "output": "MN"
+  },
+  {
+    "input": "-... ....",
+    "output": "BH"
+  },
+  {
+    "input": "--.. -.",
+    "output": "ZN"
+  },
+  {
+    "input": ".-. .--",
+    "output": "RW"
+  },
+  {
+    "input": ". --",
+    "output": "EM"
+  },
+  {
+    "input": "--. .-.",
+    "output": "GR"
+  },
+  {
+    "input": "-.. .-..",
+    "output": "DL"
+  },
+  {
+    "input": ".... -...",
+    "output": "HB"
+  },
+  {
+    "input": "--.- --.",
+    "output": "QG"
+  },
+  {
+    "input": ".- -",
+    "output": "AT"
+  },
+  {
+    "input": ".--- --",
+    "output": "JM"
+  },
+  {
+    "input": ".- -..",
+    "output": "AD"
+  },
+  {
+    "input": "- ...-",
+    "output": "TV"
+  },
+  {
+    "input": ".-- --.",
+    "output": "WG"
+  },
+  {
+    "input": "-... -...",
+    "output": "BB"
+  },
+  {
+    "input": ". .--",
+    "output": "EW"
+  },
+  {
+    "input": "..- -.-.",
+    "output": "UC"
+  },
+  {
+    "input": "- --.-",
+    "output": "TQ"
+  },
+  {
+    "input": ".-. -.-.",
+    "output": "RC"
+  },
+  {
+    "input": "..- -...",
+    "output": "UB"
+  },
+  {
+    "input": ".-- -.--",
+    "output": "WY"
+  },
+  {
+    "input": "-..- .-..",
+    "output": "XL"
+  },
+  {
+    "input": ".--. --.",
+    "output": "PG"
+  },
+  {
+    "input": "..-. --.",
+    "output": "FG"
+  },
+  {
+    "input": "--- .---",
+    "output": "OJ"
+  },
+  {
+    "input": "--. -...",
+    "output": "GB"
+  },
+  {
+    "input": "--.. --.",
+    "output": "ZG"
+  },
+  {
+    "input": ".--. .---",
+    "output": "PJ"
+  },
+  {
+    "input": "-.. .",
+    "output": "DE"
+  },
+  {
+    "input": "--.- --..",
+    "output": "QZ"
+  },
+  {
+    "input": ".--- -...",
+    "output": "JB"
+  },
+  {
+    "input": "--. -..",
+    "output": "GD"
+  },
+  {
+    "input": "-..- ..-",
+    "output": "XU"
+  },
+  {
+    "input": ".... ..",
+    "output": "HI"
+  },
+  {
+    "input": "-..- ...-",
+    "output": "XV"
+  },
+  {
+    "input": "-- --",
+    "output": "MM"
+  },
+  {
+    "input": "-.. -..-",
+    "output": "DX"
+  },
+  {
+    "input": "- --.-",
+    "output": "TQ"
+  },
+  {
+    "input": ".--- ...",
+    "output": "JS"
+  },
+  {
+    "input": "-. .-.",
+    "output": "NR"
+  },
+  {
+    "input": "--- -.--",
+    "output": "OY"
+  },
+  {
+    "input": "-.. -.",
+    "output": "DN"
+  },
+  {
+    "input": ".-. -..",
+    "output": "RD"
+  },
+  {
+    "input": "-- -...",
+    "output": "MB"
+  },
+  {
+    "input": ".--. -.-",
+    "output": "PK"
+  },
+  {
+    "input": ".-. .-..",
+    "output": "RL"
+  },
+  {
+    "input": "-..- --",
+    "output": "XM"
+  },
+  {
+    "input": "-- -...",
+    "output": "MB"
+  },
+  {
+    "input": "--.. -.-.",
+    "output": "ZC"
+  },
+  {
+    "input": "--.- ...",
+    "output": "QS"
+  },
+  {
+    "input": ".-.. ...",
+    "output": "LS"
+  },
+  {
+    "input": "-.-- -",
+    "output": "YT"
+  },
+  {
+    "input": ".-- -..-",
+    "output": "WX"
+  },
+  {
+    "input": "...- .-",
+    "output": "VA"
+  },
+  {
+    "input": "..- -..-",
+    "output": "UX"
+  },
+  {
+    "input": "--.. ....",
+    "output": "ZH"
+  },
+  {
+    "input": "-..- ...-",
+    "output": "XV"
+  },
+  {
+    "input": "--.. --",
+    "output": "ZM"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": ". --.-",
+    "output": "EQ"
+  },
+  {
+    "input": "--. -.-.",
+    "output": "GC"
+  },
+  {
+    "input": "-.. --..",
+    "output": "DZ"
+  },
+  {
+    "input": "-.-. --",
+    "output": "CM"
+  },
+  {
+    "input": ". ...",
+    "output": "ES"
+  },
+  {
+    "input": "--.- -.--",
+    "output": "QY"
+  },
+  {
+    "input": "... .--",
+    "output": "SW"
+  },
+  {
+    "input": ".-. --.",
+    "output": "RG"
+  },
+  {
+    "input": "-.- -..-",
+    "output": "KX"
+  },
+  {
+    "input": ".... ..-.",
+    "output": "HF"
+  },
+  {
+    "input": ".--- .-..",
+    "output": "JL"
+  },
+  {
+    "input": "... -",
+    "output": "ST"
+  },
+  {
+    "input": "-- .",
+    "output": "ME"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": "..- ...",
+    "output": "US"
+  },
+  {
+    "input": ". ..",
+    "output": "EI"
+  },
+  {
+    "input": "-..- ..-.",
+    "output": "XF"
+  },
+  {
+    "input": "...- ..",
+    "output": "VI"
+  },
+  {
+    "input": "--.. .",
+    "output": "ZE"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": "-- --",
+    "output": "MM"
+  },
+  {
+    "input": "-. -.-.",
+    "output": "NC"
+  },
+  {
+    "input": "--- ..-.",
+    "output": "OF"
+  },
+  {
+    "input": "--.- -.--",
+    "output": "QY"
+  },
+  {
+    "input": "...- -.",
+    "output": "VN"
+  },
+  {
+    "input": ". -.--",
+    "output": "EY"
+  },
+  {
+    "input": "-... -.-",
+    "output": "BK"
+  },
+  {
+    "input": ".-. ---",
+    "output": "RO"
+  },
+  {
+    "input": "... ..-",
+    "output": "SU"
+  },
+  {
+    "input": "-.-. ..",
+    "output": "CI"
+  },
+  {
+    "input": ".-. .",
+    "output": "RE"
+  },
+  {
+    "input": "-.- .",
+    "output": "KE"
+  },
+  {
+    "input": ".-. ---",
+    "output": "RO"
+  },
+  {
+    "input": "--- ...-",
+    "output": "OV"
+  },
+  {
+    "input": "--.. --.-",
+    "output": "ZQ"
+  },
+  {
+    "input": ".... ..-.",
+    "output": "HF"
+  },
+  {
+    "input": "-.- ..-",
+    "output": "KU"
+  },
+  {
+    "input": ".-. --..",
+    "output": "RZ"
+  },
+  {
+    "input": "... --",
+    "output": "SM"
+  },
+  {
+    "input": "-... .--",
+    "output": "BW"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": ".... ..-",
+    "output": "HU"
+  },
+  {
+    "input": "-..- ..",
+    "output": "XI"
+  },
+  {
+    "input": "--- ..",
+    "output": "OI"
+  },
+  {
+    "input": "--.- .--.",
+    "output": "QP"
+  },
+  {
+    "input": "... --",
+    "output": "SM"
+  },
+  {
+    "input": ".-.. --",
+    "output": "LM"
+  },
+  {
+    "input": ".--. --",
+    "output": "PM"
+  },
+  {
+    "input": ". ..",
+    "output": "EI"
+  },
+  {
+    "input": "- .-",
+    "output": "TA"
+  },
+  {
+    "input": "--.- -.-",
+    "output": "QK"
+  },
+  {
+    "input": "-- ..-",
+    "output": "MU"
+  },
+  {
+    "input": ".--. -..",
+    "output": "PD"
+  },
+  {
+    "input": "-... .-..",
+    "output": "BL"
+  },
+  {
+    "input": "--.- .-.",
+    "output": "QR"
+  },
+  {
+    "input": ".- ...-",
+    "output": "AV"
+  },
+  {
+    "input": ".-. ....",
+    "output": "RH"
+  },
+  {
+    "input": "--.. ..-.",
+    "output": "ZF"
+  },
+  {
+    "input": "-.- .-..",
+    "output": "KL"
+  },
+  {
+    "input": "..-. ---",
+    "output": "FO"
+  },
+  {
+    "input": "-... .--",
+    "output": "BW"
+  },
+  {
+    "input": "--.- --.",
+    "output": "QG"
+  },
+  {
+    "input": "-..- .-.",
+    "output": "XR"
+  },
+  {
+    "input": "-.-. -..-",
+    "output": "CX"
+  },
+  {
+    "input": "-... ---",
+    "output": "BO"
+  },
+  {
+    "input": "--.. ..",
+    "output": "ZI"
+  },
+  {
+    "input": ".- --.-",
+    "output": "AQ"
+  },
+  {
+    "input": ".. -..-",
+    "output": "IX"
+  },
+  {
+    "input": "-.-- -.--",
+    "output": "YY"
+  },
+  {
+    "input": ".. ..",
+    "output": "II"
+  },
+  {
+    "input": ". .-",
+    "output": "EA"
+  },
+  {
+    "input": ".-- --",
+    "output": "WM"
+  },
+  {
+    "input": "--. -..",
+    "output": "GD"
+  },
+  {
+    "input": ".. .-.",
+    "output": "IR"
+  },
+  {
+    "input": "- -.",
+    "output": "TN"
+  },
+  {
+    "input": ".... --",
+    "output": "HM"
+  },
+  {
+    "input": ".--. ....",
+    "output": "PH"
+  },
+  {
+    "input": "-... -",
+    "output": "BT"
+  },
+  {
+    "input": ".-- -.",
+    "output": "WN"
+  },
+  {
+    "input": "- ..",
+    "output": "TI"
+  },
+  {
+    "input": ".--- ..",
+    "output": "JI"
+  },
+  {
+    "input": "-.. .-",
+    "output": "DA"
+  },
+  {
+    "input": ".- ...-",
+    "output": "AV"
+  },
+  {
+    "input": ".--. ..",
+    "output": "PI"
+  },
+  {
+    "input": ".--. ....",
+    "output": "PH"
+  },
+  {
+    "input": "-.-. -..-",
+    "output": "CX"
+  },
+  {
+    "input": "..-. ---",
+    "output": "FO"
+  },
+  {
+    "input": ".-- -..-",
+    "output": "WX"
+  },
+  {
+    "input": "-.-. -.-.",
+    "output": "CC"
+  },
+  {
+    "input": "-.. -.-.",
+    "output": "DC"
+  },
+  {
+    "input": "--- .-..",
+    "output": "OL"
+  },
+  {
+    "input": "--.. ..-",
+    "output": "ZU"
+  },
+  {
+    "input": "-- -...",
+    "output": "MB"
+  },
+  {
+    "input": ".. .-",
+    "output": "IA"
+  },
+  {
+    "input": ".--. ...",
+    "output": "PS"
+  },
+  {
+    "input": "..-. -",
+    "output": "FT"
+  },
+  {
+    "input": "... ---",
+    "output": "SO"
+  },
+  {
+    "input": ".-. -.",
+    "output": "RN"
+  },
+  {
+    "input": ". ....",
+    "output": "EH"
+  },
+  {
+    "input": "-- -.-.",
+    "output": "MC"
+  },
+  {
+    "input": ".... -",
+    "output": "HT"
+  },
+  {
+    "input": "-... ..-",
+    "output": "BU"
+  },
+  {
+    "input": ".--. .",
+    "output": "PE"
+  },
+  {
+    "input": "-.- ...-",
+    "output": "KV"
+  },
+  {
+    "input": "--- ---",
+    "output": "OO"
+  },
+  {
+    "input": ".-.. -...",
+    "output": "LB"
+  },
+  {
+    "input": ".-- ...",
+    "output": "WS"
+  },
+  {
+    "input": "-..- ---",
+    "output": "XO"
+  },
+  {
+    "input": "-... --.-",
+    "output": "BQ"
+  },
+  {
+    "input": "..-. -..-",
+    "output": "FX"
+  },
+  {
+    "input": "...- -.-",
+    "output": "VK"
+  },
+  {
+    "input": "-.. ...-",
+    "output": "DV"
+  },
+  {
+    "input": "--- -.-",
+    "output": "OK"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": "-- --.",
+    "output": "MG"
+  },
+  {
+    "input": ".-. -.-.",
+    "output": "RC"
+  },
+  {
+    "input": "-. -",
+    "output": "NT"
+  },
+  {
+    "input": ".- ..-.",
+    "output": "AF"
+  },
+  {
+    "input": "-.-. ...",
+    "output": "CS"
+  },
+  {
+    "input": ".--. --.",
+    "output": "PG"
+  },
+  {
+    "input": "-.-. .--.",
+    "output": "CP"
+  },
+  {
+    "input": "... .---",
+    "output": "SJ"
+  },
+  {
+    "input": "--.- .--",
+    "output": "QW"
+  },
+  {
+    "input": "--- ...-",
+    "output": "OV"
+  },
+  {
+    "input": "..- --.",
+    "output": "UG"
+  },
+  {
+    "input": "...- --.-",
+    "output": "VQ"
+  },
+  {
+    "input": "... ..-",
+    "output": "SU"
+  },
+  {
+    "input": "...- ....",
+    "output": "VH"
+  },
+  {
+    "input": ".- ..-",
+    "output": "AU"
+  },
+  {
+    "input": "...- --.-",
+    "output": "VQ"
+  },
+  {
+    "input": "-.-. --.",
+    "output": "CG"
+  },
+  {
+    "input": ".--- -",
+    "output": "JT"
+  },
+  {
+    "input": "-. ..-",
+    "output": "NU"
+  },
+  {
+    "input": "--.. .-..",
+    "output": "ZL"
+  },
+  {
+    "input": "-. -..-",
+    "output": "NX"
+  },
+  {
+    "input": "..-. .",
+    "output": "FE"
+  },
+  {
+    "input": "-..- -..",
+    "output": "XD"
+  },
+  {
+    "input": "... ..-",
+    "output": "SU"
+  },
+  {
+    "input": "-.- .",
+    "output": "KE"
+  },
+  {
+    "input": ".--. .-",
+    "output": "PA"
+  },
+  {
+    "input": "..-. ---",
+    "output": "FO"
+  },
+  {
+    "input": "-..- .--.",
+    "output": "XP"
+  },
+  {
+    "input": "-.-- .-.",
+    "output": "YR"
+  },
+  {
+    "input": "-.-. .-.",
+    "output": "CR"
+  },
+  {
+    "input": ".--. -.",
+    "output": "PN"
+  },
+  {
+    "input": "--. -.",
+    "output": "GN"
+  },
+  {
+    "input": "--- .-.",
+    "output": "OR"
+  },
+  {
+    "input": ".- -.--",
+    "output": "AY"
+  },
+  {
+    "input": "--.. -.-.",
+    "output": "ZC"
+  },
+  {
+    "input": ".--- --",
+    "output": "JM"
+  },
+  {
+    "input": "-- .-",
+    "output": "MA"
+  },
+  {
+    "input": ".-.. -.-",
+    "output": "LK"
+  },
+  {
+    "input": ".-. ..-.",
+    "output": "RF"
+  },
+  {
+    "input": "- -.",
+    "output": "TN"
+  },
+  {
+    "input": "-... ..-.",
+    "output": "BF"
+  },
+  {
+    "input": ".--. -.--",
+    "output": "PY"
+  },
+  {
+    "input": "-... ..-",
+    "output": "BU"
+  },
+  {
+    "input": "... -..-",
+    "output": "SX"
+  },
+  {
+    "input": "... ....",
+    "output": "SH"
+  },
+  {
+    "input": "..-. ...",
+    "output": "FS"
+  },
+  {
+    "input": "-.-. ...-",
+    "output": "CV"
+  },
+  {
+    "input": "-.-- .",
+    "output": "YE"
+  },
+  {
+    "input": ".. -.-",
+    "output": "IK"
+  },
+  {
+    "input": "- ---",
+    "output": "TO"
+  },
+  {
+    "input": "--. -.-",
+    "output": "GK"
+  },
+  {
+    "input": "--- -",
+    "output": "OT"
+  },
+  {
+    "input": "-... ....",
+    "output": "BH"
+  },
+  {
+    "input": "-. .-.",
+    "output": "NR"
+  },
+  {
+    "input": ". .-.",
+    "output": "ER"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": ".- .-..",
+    "output": "AL"
+  },
+  {
+    "input": "..- -.",
+    "output": "UN"
+  },
+  {
+    "input": "--.. .--",
+    "output": "ZW"
+  },
+  {
+    "input": "-.-. -.--",
+    "output": "CY"
+  },
+  {
+    "input": "...- --..",
+    "output": "VZ"
+  },
+  {
+    "input": ".--- ..-.",
+    "output": "JF"
+  },
+  {
+    "input": ".-- --.-",
+    "output": "WQ"
+  },
+  {
+    "input": "-.. -.-.",
+    "output": "DC"
+  },
+  {
+    "input": "-.. .--",
+    "output": "DW"
+  },
+  {
+    "input": ".-- ---",
+    "output": "WO"
+  },
+  {
+    "input": ".. ..",
+    "output": "II"
+  },
+  {
+    "input": ". .-",
+    "output": "EA"
+  },
+  {
+    "input": ".-. --",
+    "output": "RM"
+  },
+  {
+    "input": "--- ...",
+    "output": "OS"
+  },
+  {
+    "input": "... ...",
+    "output": "SS"
+  },
+  {
+    "input": ".--- ....",
+    "output": "JH"
+  },
+  {
+    "input": ".--- -..-",
+    "output": "JX"
+  },
+  {
+    "input": ".. .---",
+    "output": "IJ"
+  },
+  {
+    "input": ".... -.-.",
+    "output": "HC"
+  },
+  {
+    "input": "... -",
+    "output": "ST"
+  },
+  {
+    "input": "-..- -...",
+    "output": "XB"
+  },
+  {
+    "input": ".-.. -.-",
+    "output": "LK"
+  },
+  {
+    "input": ".--- --.",
+    "output": "JG"
+  },
+  {
+    "input": "-.-. -",
+    "output": "CT"
+  },
+  {
+    "input": "...- .-..",
+    "output": "VL"
+  },
+  {
+    "input": ".-. --",
+    "output": "RM"
+  },
+  {
+    "input": ".--. -",
+    "output": "PT"
+  },
+  {
+    "input": ".-- .---",
+    "output": "WJ"
+  },
+  {
+    "input": "-..- -...",
+    "output": "XB"
+  },
+  {
+    "input": "-.- ....",
+    "output": "KH"
+  },
+  {
+    "input": ".-- -.--",
+    "output": "WY"
+  },
+  {
+    "input": "-.. --",
+    "output": "DM"
+  },
+  {
+    "input": "--. -..-",
+    "output": "GX"
+  },
+  {
+    "input": ".-.. --..",
+    "output": "LZ"
+  },
+  {
+    "input": ".-. ...-",
+    "output": "RV"
+  },
+  {
+    "input": "-.. -.--",
+    "output": "DY"
+  },
+  {
+    "input": "-..- -.",
+    "output": "XN"
+  },
+  {
+    "input": "...- .-..",
+    "output": "VL"
+  },
+  {
+    "input": "-.-. ..",
+    "output": "CI"
+  },
+  {
+    "input": "--. ..-",
+    "output": "GU"
+  },
+  {
+    "input": "-.- --..",
+    "output": "KZ"
+  },
+  {
+    "input": ".-- ---",
+    "output": "WO"
+  },
+  {
+    "input": "-.-- ..",
+    "output": "YI"
+  },
+  {
+    "input": "...- ..-",
+    "output": "VU"
+  },
+  {
+    "input": ".. --",
+    "output": "IM"
+  },
+  {
+    "input": ". -..",
+    "output": "ED"
+  },
+  {
+    "input": "--.. ..",
+    "output": "ZI"
+  },
+  {
+    "input": ".--. .--",
+    "output": "PW"
+  },
+  {
+    "input": "--.- ...",
+    "output": "QS"
+  },
+  {
+    "input": ".-. .---",
+    "output": "RJ"
+  },
+  {
+    "input": "--.- .---",
+    "output": "QJ"
+  },
+  {
+    "input": "--. .--",
+    "output": "GW"
+  },
+  {
+    "input": "... ..-.",
+    "output": "SF"
+  },
+  {
+    "input": "--. -..",
+    "output": "GD"
+  },
+  {
+    "input": "-..- -...",
+    "output": "XB"
+  },
+  {
+    "input": "...- .-.",
+    "output": "VR"
+  },
+  {
+    "input": "-... ..-.",
+    "output": "BF"
+  },
+  {
+    "input": "--.. .---",
+    "output": "ZJ"
+  },
+  {
+    "input": ".-.. ..-.",
+    "output": "LF"
+  },
+  {
+    "input": "- -...",
+    "output": "TB"
+  },
+  {
+    "input": "..- -..",
+    "output": "UD"
+  },
+  {
+    "input": "-- ....",
+    "output": "MH"
+  },
+  {
+    "input": "- --",
+    "output": "TM"
+  },
+  {
+    "input": ".--. -...",
+    "output": "PB"
+  },
+  {
+    "input": "- .---",
+    "output": "TJ"
+  },
+  {
+    "input": ".... ...",
+    "output": "HS"
+  },
+  {
+    "input": "--.. -.--",
+    "output": "ZY"
+  },
+  {
+    "input": ".--- ..-",
+    "output": "JU"
+  },
+  {
+    "input": ".-- --.",
+    "output": "WG"
+  },
+  {
+    "input": "-. -.",
+    "output": "NN"
+  },
+  {
+    "input": "-.-- ---",
+    "output": "YO"
+  },
+  {
+    "input": "... --.-",
+    "output": "SQ"
+  },
+  {
+    "input": "-... -.-.",
+    "output": "BC"
+  },
+  {
+    "input": ".. ...",
+    "output": "IS"
+  },
+  {
+    "input": "..-. --.",
+    "output": "FG"
+  },
+  {
+    "input": "-.-- -.-",
+    "output": "YK"
+  },
+  {
+    "input": "-... --",
+    "output": "BM"
+  },
+  {
+    "input": "-... ..",
+    "output": "BI"
+  },
+  {
+    "input": "-..- -.--",
+    "output": "XY"
+  },
+  {
+    "input": "..-. -.-",
+    "output": "FK"
+  },
+  {
+    "input": ". ...-",
+    "output": "EV"
+  },
+  {
+    "input": "...- -.-",
+    "output": "VK"
+  },
+  {
+    "input": ".--. ---",
+    "output": "PO"
+  },
+  {
+    "input": "-. ..-",
+    "output": "NU"
+  },
+  {
+    "input": "--.. .---",
+    "output": "ZJ"
+  },
+  {
+    "input": "-.-- .-",
+    "output": "YA"
+  },
+  {
+    "input": "--. -...",
+    "output": "GB"
+  },
+  {
+    "input": "-- .-.",
+    "output": "MR"
+  },
+  {
+    "input": "..-. --",
+    "output": "FM"
+  },
+  {
+    "input": "-..- .-..",
+    "output": "XL"
+  },
+  {
+    "input": "...- -.-.",
+    "output": "VC"
+  },
+  {
+    "input": "--- ..",
+    "output": "OI"
+  },
+  {
+    "input": "... .-.",
+    "output": "SR"
+  },
+  {
+    "input": "-..- --.-",
+    "output": "XQ"
+  },
+  {
+    "input": ".--. ..-.",
+    "output": "PF"
+  },
+  {
+    "input": "-.. .-",
+    "output": "DA"
+  },
+  {
+    "input": "-. ..-",
+    "output": "NU"
+  },
+  {
+    "input": ".... --",
+    "output": "HM"
+  },
+  {
+    "input": ".-- --.-",
+    "output": "WQ"
+  },
+  {
+    "input": "-- -.--",
+    "output": "MY"
+  },
+  {
+    "input": ".- .-",
+    "output": "AA"
+  },
+  {
+    "input": "-..- .-.",
+    "output": "XR"
+  },
+  {
+    "input": "...- -.",
+    "output": "VN"
+  },
+  {
+    "input": ".... .--",
+    "output": "HW"
+  },
+  {
+    "input": ". .-.",
+    "output": "ER"
+  },
+  {
+    "input": "-. -.",
+    "output": "NN"
+  },
+  {
+    "input": "..-. --..",
+    "output": "FZ"
+  },
+  {
+    "input": "--. -..-",
+    "output": "GX"
+  },
+  {
+    "input": ". -.-",
+    "output": "EK"
+  },
+  {
+    "input": "--- .---",
+    "output": "OJ"
+  },
+  {
+    "input": "... -..-",
+    "output": "SX"
+  },
+  {
+    "input": "-.-- .-..",
+    "output": "YL"
+  },
+  {
+    "input": "...- .--",
+    "output": "VW"
+  },
+  {
+    "input": "- .---",
+    "output": "TJ"
+  },
+  {
+    "input": "-... -.",
+    "output": "BN"
+  },
+  {
+    "input": ".--- -.-",
+    "output": "JK"
+  },
+  {
+    "input": ". --.",
+    "output": "EG"
+  },
+  {
+    "input": "--. ..",
+    "output": "GI"
+  },
+  {
+    "input": "-. .-.",
+    "output": "NR"
+  },
+  {
+    "input": "-..- ...-",
+    "output": "XV"
+  },
+  {
+    "input": "..-. .",
+    "output": "FE"
+  },
+  {
+    "input": "-. -...",
+    "output": "NB"
+  },
+  {
+    "input": ".-. .-.",
+    "output": "RR"
+  },
+  {
+    "input": ".--. -...",
+    "output": "PB"
+  },
+  {
+    "input": "-. .---",
+    "output": "NJ"
+  },
+  {
+    "input": "--- -.",
+    "output": "ON"
+  },
+  {
+    "input": "..- ...",
+    "output": "US"
+  },
+  {
+    "input": "-.. .-",
+    "output": "DA"
+  },
+  {
+    "input": "-.- -..-",
+    "output": "KX"
+  },
+  {
+    "input": ".... -",
+    "output": "HT"
+  },
+  {
+    "input": ".... ..",
+    "output": "HI"
+  },
+  {
+    "input": ".--- --.-",
+    "output": "JQ"
+  },
+  {
+    "input": "..-. -..",
+    "output": "FD"
+  },
+  {
+    "input": "-. -..-",
+    "output": "NX"
+  },
+  {
+    "input": "--.. .--.",
+    "output": "ZP"
+  },
+  {
+    "input": "-.. ---",
+    "output": "DO"
+  },
+  {
+    "input": "-.-- -.--",
+    "output": "YY"
+  },
+  {
+    "input": "-.-. ...-",
+    "output": "CV"
+  },
+  {
+    "input": "..- ...",
+    "output": "US"
+  },
+  {
+    "input": "..- ..",
+    "output": "UI"
+  },
+  {
+    "input": ".-.. ....",
+    "output": "LH"
+  },
+  {
+    "input": "--.- ..",
+    "output": "QI"
+  },
+  {
+    "input": ".- -..-",
+    "output": "AX"
+  },
+  {
+    "input": "-.-. -",
+    "output": "CT"
+  },
+  {
+    "input": ".--. .-",
+    "output": "PA"
+  }
 ]
