@@ -9,6 +9,7 @@
   "author": "Aashish",
   "license": "ISC",
   "dependencies": {
-    "brain.js": "^1.6.1"
+    "brain.js": "^1.6.1",
+    "random-words": "^2.0.0"
   }
 }

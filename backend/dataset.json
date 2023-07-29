@@ -106,5 +106,9 @@
   {
     "input": " ",
     "output": " "
-  }
+  },
+  { "input": ".... . .-.. .-.. ---", "output": "HELLO" },
+  { "input": ".-- --- .-. .-.. -..", "output": "WORLD" },
+  { "input": ".... --- --- -..", "output": "GOOD" },
+  { "input": "-- --- .-. -. .. -. --.", "output": "MORNING" }
 ]

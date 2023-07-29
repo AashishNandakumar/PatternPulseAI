@@ -1,5 +1,5 @@
 const brain = require("brain.js");
-// const data = require("./trainOnThis.Json");
+const fs = require("fs");
 
 /*  Traditional way of reading data from a file
     const fs = require("fs");
@@ -49,9 +49,6 @@ const brain = require("brain.js");
 
     main();
 */
-
-const fs = require("fs");
-
 function readTrainingData(filename) {
   try {
     const jsonData = fs.readFileSync(filename, "utf-8");
@@ -96,7 +93,7 @@ function writeTrainingData(filename, data) {
 
 // console.log(readtraingData("trainOnThis.Json"));
 
-const trainingData = readTrainingData("trainOnThis.Json");
+const trainingData = readTrainingData("dataset.json");
 console.log(trainingData);
 const network = new brain.recurrent.LSTM();
 
@@ -104,7 +101,74 @@ network.train(trainingData, {
   iterations: 1000,
   //   logPeriod: 1000,
   errorThresh: 0.005,
-  log: (stats) => console.log(stats),
+  // log: (stats) => console.log(stats),
 });
 
-console.log("Value: ", network.run(".-"));
+// test
+// console.log("Value: ", network.run("- --- .. -. .. -. --."));
+
+// create random words, pass it onto the words->morse converter, push the results into dataset
+const randomWords = (length) => {
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  let res = "";
+  const charLength = characters.length;
+  for (let i = 0; i < length; i++) {
+    res += characters.charAt(Math.floor(Math.random() * charLength));
+  }
+
+  return res;
+};
+
+const textToMorse = (text) => {
+  // Step 1: Define the Morse Code Dictionary
+
+  const morseCodeDictionary = {
+    A: ".-",
+    B: "-...",
+    C: "-.-.",
+    D: "-..",
+    E: ".",
+    F: "..-.",
+    G: "--.",
+    H: "....",
+    I: "..",
+    J: ".---",
+    K: "-.-",
+    L: ".-..",
+    M: "--",
+    N: "-.",
+    O: "---",
+    P: ".--.",
+    Q: "--.-",
+    R: ".-.",
+    S: "...",
+    T: "-",
+    U: "..-",
+    V: "...-",
+    W: ".--",
+    X: "-..-",
+    Y: "-.--",
+    Z: "--..",
+  };
+  // Step 2: Handle Capitalization and Spaces
+
+  text = text.toUpperCase();
+  // text = text.replace(/\s/g, "/");
+  console.log(text);
+
+  // Step 3: Convert the Text to Morse Code
+  const words = text.split(" ");
+  console.log(words);
+  const morseCodeArray = words.map((word) =>
+    word
+      .split("")
+      .map((char) => morseCodeDictionary[char] || char)
+      .join(" ")
+  );
+  console.log(morseCodeArray);
+  // Step 4: Return the Morse Code
+  return morseCodeArray.join(" / ");
+};
+
+console.log(textToMorse("Hello World"));
