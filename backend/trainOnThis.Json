@@ -1,0 +1,110 @@
+[
+  {
+    "input": ".-",
+    "output": "A"
+  },
+  {
+    "input": "-...",
+    "output": "B"
+  },
+  {
+    "input": "-.-.",
+    "output": "C"
+  },
+  {
+    "input": "-..",
+    "output": "D"
+  },
+  {
+    "input": ".",
+    "output": "E"
+  },
+  {
+    "input": "..-.",
+    "output": "F"
+  },
+  {
+    "input": "--.",
+    "output": "G"
+  },
+  {
+    "input": "....",
+    "output": "H"
+  },
+  {
+    "input": "..",
+    "output": "I"
+  },
+  {
+    "input": ".---",
+    "output": "J"
+  },
+  {
+    "input": "-.-",
+    "output": "K"
+  },
+  {
+    "input": ".-..",
+    "output": "L"
+  },
+  {
+    "input": "--",
+    "output": "M"
+  },
+  {
+    "input": "-.",
+    "output": "N"
+  },
+  {
+    "input": "---",
+    "output": "O"
+  },
+  {
+    "input": ".--.",
+    "output": "P"
+  },
+  {
+    "input": "--.-",
+    "output": "Q"
+  },
+  {
+    "input": ".-.",
+    "output": "R"
+  },
+  {
+    "input": "...",
+    "output": "S"
+  },
+  {
+    "input": "-",
+    "output": "T"
+  },
+  {
+    "input": "..-",
+    "output": "U"
+  },
+  {
+    "input": "...-",
+    "output": "V"
+  },
+  {
+    "input": ".--",
+    "output": "W"
+  },
+  {
+    "input": "-..-",
+    "output": "X"
+  },
+  {
+    "input": "-.--",
+    "output": "Y"
+  },
+  {
+    "input": "--..",
+    "output": "Z"
+  },
+  {
+    "input": " ",
+    "output": " "
+  }
+]
