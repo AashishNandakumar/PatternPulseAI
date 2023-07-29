@@ -1,0 +1,10 @@
+Call back fxn: Is a function passed as a paremter to other function, which gets executed after the latter 
+               function executes, this is used to achieve asynchronous behaviour. Some process require more
+               time to get executed compared to the main thread, because they have to fetch data from other
+               digital locations. Here the callback function sees its application/ also used to perform operations 
+               on a array of data
+
+Buffer: Is a memory chunk containing binary data 
+Reading from a file is asynchronous in nodejs, so data is available only in inside callback function, to make it
+        available outside use async/await
+"fs" module to perform file i/o operations in JS

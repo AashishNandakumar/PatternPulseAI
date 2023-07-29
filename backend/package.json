@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Neural network interpreter using neural network",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aashish",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^1.6.1"
+  }
+}
