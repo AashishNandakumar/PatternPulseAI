@@ -109,7 +109,7 @@ const getTrainingData = () => {
 const callNeural = (trainingData, morseCode1) => {
   // const trainingData = readTrainingData("dataset.json");
   // console.log(trainingData);
-  console.log("training data: ", trainingData);
+  // console.log("training data: ", trainingData);
   const configuration = { hiddenLayers: [5, 10], learningRate: 0.3 };
   const network = new brain.recurrent.LSTM(configuration);
 
@@ -117,16 +117,29 @@ const callNeural = (trainingData, morseCode1) => {
     iterations: 100,
     //   logPeriod: 1000,
     errorThresh: 0.005,
-    log: (stats) => console.log(stats),
+    // log: (stats) => console.log(stats),
   });
 
   //! storing the trained data offline, so u can bring it back to use, instead training the data again and again
-  const trainedModel = network.toJSON();
+  // const trainedModel = network.toJSON();
+  storeOfflineNeuralNetwork(network);
 
-  console.log("trained model: ", trainedModel);
+  // console.log("trained model: ", trainedModel);
+
   // test
-  console.log("Value: ", network.run(morseCode1));
+  // console.log("Value: ", network.run(morseCode1));
 };
+
+// * function to store the trained neural network offline
+function storeOfflineNeuralNetwork(network) {
+  const nerualNetworkJSON = network.toJSON();
+
+  const jsonData = JSON.stringify(nerualNetworkJSON, null, 2);
+
+  // store the above in OfflineNeuralNet.json
+  fs.writeFileSync("OfflineNeuralNet.json", jsonData, "utf-8");
+  // console.log(nerualNetworkJSON);
+}
 
 // * for mysql get and set methods
 
