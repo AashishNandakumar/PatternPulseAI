@@ -1,69 +1,23 @@
 const brain = require("brain.js");
 const fs = require("fs");
 var mysql = require("mysql");
-/*  Traditional way of reading data from a file
-    const fs = require("fs");
+const { connection, createTable, createDatabase } = require("./database");
 
-    let inputData, outputData;
+const setTrainingData = () => {
+  try {
+    const data = getTrainingData();
+    const existingData = fs.readFileSync("dataset.json", "utf-8");
+    let parsedExistingData = JSON.parse(existingData);
 
-    async function readDataFromFileA() {
-    try {
-        fs.readFile("data1_morseCode.txt", "utf-8", (err, data) => {
-        inputData = data;
-        console.log("Data from 1:\n", inputData);
-        });
-    } catch (err) {
-        console.log(err);
-        inputData = null;
-    }
-    }
+    parsedExistingData.push(data);
+    const jsonData = JSON.stringify(parsedExistingData, null, 2);
+    fs.writeFileSync("dataset.json", jsonData, "utf-8");
 
-    async function readDataFromFileB() {
-    try {
-        fs.readFile("data2_morseCodeInterpretation.txt", "utf-8", (err, data) => {
-        outputData = data;
-        console.log("Data from 2:\n", outputData);
-        });
-    } catch (err) {
-        console.log(err);
-        outputData = null;
-    }
-    }
-
-    function processData() {
-    if (inputData && outputData) {
-        console.log("processing");
-    } else {
-        console.log("Data not yet loaded");
-    }
-    }
-
-    async function main() {
-    // read data from file A and B concurrently
-    await Promise.all([readDataFromFileA(), readDataFromFileB()]);
-
-    processData();
-
-    console.log(inputData, outputData);
-    }
-
-    main();
-*/
-
-// * Connect to mysql
-
-const connectToMySql = () => {
-  var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    port: "3307",
-    password: "Sh@dow4580",
-  });
-
-  con.connect(function (err) {
-    if (err) throw err;
-    else console.log("Connection successfull");
-  });
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
+  }
 };
 
 function readTrainingData(filename) {
@@ -151,25 +105,6 @@ const getTrainingData = () => {
   return { input: randMorse, output: rand };
 };
 
-const setTrainingData = () => {
-  try {
-    const data = getTrainingData();
-    const existingData = fs.readFileSync("dataset.json", "utf-8");
-    let parsedExistingData = JSON.parse(existingData);
-
-    parsedExistingData.push(data);
-    const jsonData = JSON.stringify(parsedExistingData, null, 2);
-    fs.writeFileSync("dataset.json", jsonData, "utf-8");
-
-    return true;
-  } catch (err) {
-    console.error(err);
-    return false;
-  }
-};
-
-// setTrainingData();
-
 const callNeural = (morseCode1) => {
   const trainingData = readTrainingData("dataset.json");
   console.log(trainingData);
@@ -188,8 +123,21 @@ const callNeural = (morseCode1) => {
   console.log("Value: ", network.run(morseCode1));
 };
 
+// * for mysql get and set methods
+
+function insertData(data) {
+  const sql = `INSERT IGNORE INTO training_data (input, output) VALUES ?`;
+
+  const values = data.map((item) => [item.input, item.output]);
+
+  connection.query(sql, [values], (err) => {
+    if (err) console.error("error inserting data ", err);
+    else console.log("data inserted successfully");
+  });
+}
+
 function main() {
-  // * Increase trainning dataset
+  // * Increase training dataset
   // for (let i = 0; i < 1000; i++) {
   //   let val = setTrainingData();
   //   if (val) {
@@ -198,10 +146,18 @@ function main() {
   //     console.log("Unsuccessfull in writing data: ", i + 1);
   //   }
   // }
+  // callNeural("-. ---");
 
-  callNeural("-. ---");
+  createDatabase();
+  createTable();
+
+  const trainingData = [];
+
+  for (let i = 0; i < 50000; i++) {
+    let data = getTrainingData();
+    trainingData.push(data);
+  }
+  insertData(trainingData);
 }
 
-// main();
-
-connectToMySql();
+main();
