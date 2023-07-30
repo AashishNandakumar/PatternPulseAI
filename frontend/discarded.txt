@@ -1,0 +1,174 @@
+  <!-- <nav class>
+        <h1 id="h1">ArtiClassify  <span> MORSE CODE TRANSLATOR</span></h1>
+        
+        <ul>
+            <li><a href="#">A</a></li>
+            
+            <div class="dropdownmenu">
+                <li><a href="#"><img src="D:\Morse Converter\Images\auto.svg" alt="Theme" height="25px" width="30px"><i class="fas fa-caret-down"></i></a></li>
+                <div class="dropcontent">
+                    <li><a href="#"><img src="D:\Morse Converter\Images\Dark.png" alt="Dark" height="30px" width="30px"></a></li>
+                    <hr/>
+                   <li><a href="#"><img src="D:\Morse Converter\Images\Light theme.png" alt="Light" height="30px" width="30px"></a></li>
+                </div>
+            </div>
+            <li><a href="#">B</a></li>
+         </ul>
+    </nav><br/> -->
+
+
+    /* .btn{
+    float: top;
+    background-color: #CDBEBA;
+    border: none;
+    color: black;
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #B79287;
+}
+
+.dropdown-menu{
+    display: inline-block;
+    z-index: 999;
+    border: none;
+    background-color: #CDBEBA;
+    padding: 0;
+
+} */
+
+
+
+/* .dropdown{
+    display: block;
+    position: relative;
+    z-index: 999;
+}
+
+.dropdown li{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    align-items: flex-start;
+}
+
+.navbar ul li:hover dropdown li{
+    display: block;
+} */
+
+/* .navbar #h1{
+    color: gray;
+    size: 10px;
+    font-family: southair;
+    margin-bottom: 1.6cm;
+}
+
+#h1 span{
+    color: black;
+    font-family: beba;
+    font-size: 1cm;
+    
+}
+
+.navbar{
+    background-color: #CDBEBA;        
+    height: 70px;
+    width: 100%;
+    align-items: end;
+    padding: 0 5%;
+}
+
+nav ul{
+    list-style: none;           /*specifies type of marker*/
+/*}
+
+nav ul li{
+    /* padding: 10px 30px; */
+    /* text-align: center; */
+    /* float: left; */
+   /* position: relative;  
+    
+    width: 150px;
+    border: 1px solid #CDBEBA;
+}
+
+nav ul li a{
+    color:black;
+    font-size: 20px;
+    transition: 0.2s;
+    text-decoration: none;
+    line-height: 40px;            /* positioning the text */
+   /* display: block;
+}
+
+nav ul li a:hover{
+    background-color: #B79287 ;
+    /* border: 10px solid #B79287 ;
+    border-radius: 5px;
+    border-collapse: collapse; */
+
+/*}
+
+nav ul li ul{
+    display: block;
+    position: relative;
+    z-index: 999;
+} 
+
+nav ul li ul li{
+  display: none;
+  position: absolute; 
+  background-color: #CDBEBA;
+  border: none;
+   min-width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  align-items: flex-start; 
+}
+
+nav ul li:hover ul li{
+    display: block;
+}
+
+nav ul li ul li:hover{
+    background-color: #B79287 ; 
+} */
+
+/* .dropcontent a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+} */
+/*
+  .dropcontent li:hover {background-color: #B79287 ; 
+    /* border : 2px solid #B79287 ;
+border-radius: 5px;}  */
+
+
+/* .end{
+    align-items: center;
+    background-color: #CDBEBA;
+    height: 4cm;
+    contain: strict;
+}
+.end ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.end ul li{
+    position: relative;
+    text-align: center;
+    margin: 5% -20% 5% 35%;
+    font-family: beba;
+    font-size: 20px;
+}
+
+.end ul li:hover{
+    text-decoration: underline;
+    color: #3D2923;
+} */
