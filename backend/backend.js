@@ -2,34 +2,7 @@ const brain = require("brain.js");
 const fs = require("fs");
 var mysql = require("mysql");
 const { connection, createTable, createDatabase } = require("./database");
-const { log } = require("console");
-
-const setTrainingData = () => {
-  try {
-    const data = getTrainingData();
-    const existingData = fs.readFileSync("dataset.json", "utf-8");
-    let parsedExistingData = JSON.parse(existingData);
-
-    parsedExistingData.push(data);
-    const jsonData = JSON.stringify(parsedExistingData, null, 2);
-    fs.writeFileSync("dataset.json", jsonData, "utf-8");
-
-    return true;
-  } catch (err) {
-    console.error(err);
-    return false;
-  }
-};
-
-function readTrainingData(filename) {
-  try {
-    const jsonData = fs.readFileSync(filename, "utf-8");
-    return JSON.parse(jsonData);
-  } catch (err) {
-    console.error(err);
-    return [];
-  }
-}
+const { log, error } = require("console");
 
 // create random words, pass it onto the (words->morse) converter, push the results into dataset
 const randomWords = (length) => {
@@ -106,43 +79,63 @@ const getTrainingData = () => {
   return { input: randMorse, output: rand };
 };
 
-const callNeural = (trainingData, morseCode1) => {
-  // const trainingData = readTrainingData("dataset.json");
-  // console.log(trainingData);
-  // console.log("training data: ", trainingData);
-  const configuration = { hiddenLayers: [5, 10], learningRate: 0.3 };
-  const network = new brain.recurrent.LSTM(configuration);
+// * Train the neural network by loading a pre-trained NN
+function trainNN(newTrainingData) {
+  const trainedModel = getOfflineNeuralNetwork();
 
-  network.train(trainingData, {
-    iterations: 100,
+  console.log("Success in loading trained NN!");
+
+  trainedModel.train(newTrainingData, {
+    iterations: 10000,
     //   logPeriod: 1000,
     errorThresh: 0.005,
-    // log: (stats) => console.log(stats),
+    log: (stats) => console.log(stats),
   });
 
+  // After training stor it back
+  storeOfflineNeuralNetwork(trainedModel);
+}
+
+const callNeural = (morseCode1) => {
+  // get the trained NN
+  const trainedModel = getOfflineNeuralNetwork();
+
+  // *test
+  console.log("Value: ", trainedModel.run(morseCode1));
+
   //! storing the trained data offline, so u can bring it back to use, instead training the data again and again
-  // const trainedModel = network.toJSON();
-  storeOfflineNeuralNetwork(network);
-
-  // console.log("trained model: ", trainedModel);
-
-  // test
-  // console.log("Value: ", network.run(morseCode1));
+  storeOfflineNeuralNetwork(trainedModel);
 };
 
 // * function to store the trained neural network offline
 function storeOfflineNeuralNetwork(network) {
   const nerualNetworkJSON = network.toJSON();
 
-  const jsonData = JSON.stringify(nerualNetworkJSON, null, 2);
-
   // store the above in OfflineNeuralNet.json
-  fs.writeFileSync("OfflineNeuralNet.json", jsonData, "utf-8");
+  fs.writeFileSync(
+    "OfflineNeuralNet.json",
+    JSON.stringify(nerualNetworkJSON, null, 2),
+    "utf-8"
+  );
   // console.log(nerualNetworkJSON);
 }
 
-// * for mysql get and set methods
+// * function to get the stored offline trained neural network
+function getOfflineNeuralNetwork() {
+  try {
+    const jsonData = fs.readFileSync("OfflineNeuralNet.json", "utf-8");
 
+    const NeuralNetworkData = JSON.parse(jsonData);
+
+    const net = new brain.recurrent.LSTM();
+    net.fromJSON(NeuralNetworkData);
+    return net;
+  } catch (err) {
+    console.error("Couldnt load trained data: ", err);
+  }
+}
+
+// * for mysql get and set methods
 function insertData(data) {
   const sql = `INSERT IGNORE INTO training_data (input, output) VALUES ?`;
 
@@ -174,17 +167,6 @@ function fetchData(callback) {
 }
 
 function main() {
-  // * Increase training dataset
-  // for (let i = 0; i < 1000; i++) {
-  //   let val = setTrainingData();
-  //   if (val) {
-  //     console.log("Success in writing data: ", i + 1);
-  //   } else {
-  //     console.log("Unsuccessfull in writing data: ", i + 1);
-  //   }
-  // }
-  // callNeural("-. ---");
-
   // createDatabase();
   // createTable();
 
@@ -201,8 +183,12 @@ function main() {
   fetchData((err, data) => {
     if (err) console.error("Error fetchng data ", err);
     else {
-      // console.log(data);
-      callNeural(data, "..-");
+      // console.log("training data: ", data);
+
+      trainNN(data);
+
+      // test it on some dummy morse code
+      // callNeural("..-");
     }
   });
 }

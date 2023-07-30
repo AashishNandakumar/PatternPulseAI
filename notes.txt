@@ -16,3 +16,4 @@
 -using a compatible authentication method, u can configure your mysql server to use the appropriate authentication method as followed by the mysql module
         mysql> ALTER USER '<username>'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY '<pwd>';
 -SELECT COUNT(<column_name>) FROM <table_name> -> returns the no of rows of that column
+-select * from training_data where output = "te" -> fetches u the row having "te"
