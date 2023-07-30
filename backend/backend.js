@@ -2,6 +2,7 @@ const brain = require("brain.js");
 const fs = require("fs");
 var mysql = require("mysql");
 const { connection, createTable, createDatabase } = require("./database");
+const { log } = require("console");
 
 const setTrainingData = () => {
   try {
@@ -105,20 +106,24 @@ const getTrainingData = () => {
   return { input: randMorse, output: rand };
 };
 
-const callNeural = (morseCode1) => {
-  const trainingData = readTrainingData("dataset.json");
-  console.log(trainingData);
-
+const callNeural = (trainingData, morseCode1) => {
+  // const trainingData = readTrainingData("dataset.json");
+  // console.log(trainingData);
+  console.log("training data: ", trainingData);
   const configuration = { hiddenLayers: [5, 10], learningRate: 0.3 };
   const network = new brain.recurrent.LSTM(configuration);
 
   network.train(trainingData, {
-    iterations: 120,
+    iterations: 100,
     //   logPeriod: 1000,
     errorThresh: 0.005,
     log: (stats) => console.log(stats),
   });
 
+  //! storing the trained data offline, so u can bring it back to use, instead training the data again and again
+  const trainedModel = network.toJSON();
+
+  console.log("trained model: ", trainedModel);
   // test
   console.log("Value: ", network.run(morseCode1));
 };
@@ -136,6 +141,25 @@ function insertData(data) {
   });
 }
 
+function fetchData(callback) {
+  const sql = `SELECT input, output FROM training_data`;
+
+  connection.query(sql, (err, result) => {
+    if (err) {
+      console.error("Couldn't read data from the DB ", err);
+      callback(err, null);
+    } else {
+      console.log("Data fetched successfully");
+      // console.log(result);
+      const formatData = result.map((row) => {
+        return { input: row.input, output: row.output };
+      });
+
+      callback(null, formatData);
+    }
+  });
+}
+
 function main() {
   // * Increase training dataset
   // for (let i = 0; i < 1000; i++) {
@@ -148,16 +172,26 @@ function main() {
   // }
   // callNeural("-. ---");
 
-  createDatabase();
-  createTable();
+  // createDatabase();
+  // createTable();
 
-  const trainingData = [];
+  // * Inserting data into sql
+  // const trainingData = [];
 
-  for (let i = 0; i < 50000; i++) {
-    let data = getTrainingData();
-    trainingData.push(data);
-  }
-  insertData(trainingData);
+  // for (let i = 0; i < 50000; i++) {
+  //   let data = getTrainingData();
+  //   trainingData.push(data);
+  // }
+  // insertData(trainingData);
+
+  // * fetch the training data from sql and push it to the neural network
+  fetchData((err, data) => {
+    if (err) console.error("Error fetchng data ", err);
+    else {
+      // console.log(data);
+      callNeural(data, "..-");
+    }
+  });
 }
 
 main();
