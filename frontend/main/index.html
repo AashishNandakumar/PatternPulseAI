@@ -1,216 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>ArtiClassify: Morse Code Converter</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <nav class="navbar">
-        <label class="logo">ArtiClassify <span>MORSE CODE TRANSLATOR</span></label>
-        <ul>
-            <li><a href="#">a</a></li>
-           <li><a href="#">a</a></li>
-            <li><a href="#"><img src="D:\Morse Converter\Images\Light.png" id="button" onmouseover="this.style.cursor='pointer'" alt="Light" height="30px" width="30px" onclick="toggleimg()"></a></li>
-            
-        </ul>
+      <label class="logo"
+        >ArtiClassify <span>MORSE CODE TRANSLATOR</span></label
+      >
+      <ul>
+        <li><a href="#">a</a></li>
+        <li><a href="#">a</a></li>
+        <li>
+          <a href="#"
+            ><img
+              src="/frontend/Images/Light.png"
+              id="button"
+              onmouseover="this.style.cursor='pointer'"
+              alt="Light"
+              height="30px"
+              width="30px"
+              onclick="toggleimg()"
+          /></a>
+        </li>
+      </ul>
     </nav>
-   
-    
-    <h2>What is Morse Code?</h2>
-    <p>Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs.</p><br/><br/>
 
-    <img src="Images\cherry2.png" height="400px" width="50%" id="cherry">
+    <h2>What is Morse Code?</h2>
+    <p>
+      Morse code is a method used in telecommunication to encode text characters
+      as standardized sequences of two different signal durations, called dots
+      and dashes, or dits and dahs.
+    </p>
+    <br /><br />
+
+    <img
+      src="/frontend/Images/cherry2.png"
+      height="400px"
+      width="50%"
+      id="cherry"
+    />
     <!-- textboxes -->
-    
-    <h3>Text: 
-    <span onclick="copy1()"> <i class="fa fa-clipboard"></i></span>
+
+    <h3>
+      Text:
+      <span onclick="copy1()"> <i class="fa fa-clipboard"></i></span>
     </h3>
 
-    <textarea id="texta1" rows="9" cols="70"></textarea><br/>
-    <img src="Images\cherry3.png" height="600px" width="50%" id="cherry3">
-    <hr id="hr1"/>
+    <textarea id="texta1" rows="9" cols="70"></textarea><br />
+    <img
+      src="/frontend/Images/cherry3.png"
+      height="600px"
+      width="50%"
+      id="cherry3"
+    />
+    <hr id="hr1" />
 
-    <h3>Morse:<span><a href="#"><i class="fa fa-clipboard"></i></a></span></h3>
+    <h3>
+      Morse:<span
+        ><a href="#"><i class="fa fa-clipboard"></i></a
+      ></span>
+    </h3>
     <textarea rows="9" cols="70" id="texta2"></textarea>
-    
-    
+
     <!-- tables -->
-    <br/><br/><h3 class="hr-stuff">Morse Code Alphabets</h3>
+    <br /><br />
+    <h3 class="hr-stuff">Morse Code Alphabets</h3>
     <h4>LATIN</h4>
-    <table style="width: 70%; margin-left: 6cm;" class="table table-striped table-bordered table-condensed">         <!--bootstrap-->
-        <tr>
-            <td>A</td>
-            <td>.-</td>
-            <td>B</td>
-            <td>-...</td>
-            <td>C</td>
-            <td>-.-.</td>
-        </tr>
-        <tr>
-            <td>D</td>
-            <td>-..</td>
-            <td>E</td>
-            <td>.</td>
-            <td>F</td>
-            <td>..-.</td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td>--.</td>
-            <td>H</td>
-            <td>....</td>
-            <td>I</td>
-            <td>..</td>
-        </tr>
-        <tr>
-            <td>J</td>
-            <td>.---</td>
-            <td>K</td>
-            <td>-.-</td>
-            <td>L</td>
-            <td>.-..</td>
-        </tr>
-        <tr>
-            <td>M</td>
-            <td>--</td>
-            <td>N</td>
-            <td>-.</td>
-            <td>O</td>
-            <td>---</td>
-        </tr>
-        <tr>
-            <td>P</td>
-            <td>.--.</td>
-            <td>Q</td>
-            <td>--.-</td>
-            <td>R</td>
-            <td>.-.</td>
-        </tr>
-        <tr>
-            <td>S</td>
-            <td>...</td>
-            <td>T</td>
-            <td>-</td>
-            <td>U</td>
-            <td>..-</td>
-        </tr>
-        <tr>
-            <td>V</td>
-            <td>...-</td>
-            <td>W</td>
-            <td>.--</td>
-            <td>X</td>
-            <td>-..-</td>
-        </tr>
-        <tr>
-            <td>Y</td>
-            <td>-.--</td>
-            <td>Z</td>
-            <td>--.</td>
-            <td></td>
-            <td></td>
-        </tr>
+    <table
+      style="width: 70%; margin-left: 6cm"
+      class="table table-striped table-bordered table-condensed"
+    >
+      <!--bootstrap-->
+      <tr>
+        <td>A</td>
+        <td>.-</td>
+        <td>B</td>
+        <td>-...</td>
+        <td>C</td>
+        <td>-.-.</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>-..</td>
+        <td>E</td>
+        <td>.</td>
+        <td>F</td>
+        <td>..-.</td>
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>--.</td>
+        <td>H</td>
+        <td>....</td>
+        <td>I</td>
+        <td>..</td>
+      </tr>
+      <tr>
+        <td>J</td>
+        <td>.---</td>
+        <td>K</td>
+        <td>-.-</td>
+        <td>L</td>
+        <td>.-..</td>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>--</td>
+        <td>N</td>
+        <td>-.</td>
+        <td>O</td>
+        <td>---</td>
+      </tr>
+      <tr>
+        <td>P</td>
+        <td>.--.</td>
+        <td>Q</td>
+        <td>--.-</td>
+        <td>R</td>
+        <td>.-.</td>
+      </tr>
+      <tr>
+        <td>S</td>
+        <td>...</td>
+        <td>T</td>
+        <td>-</td>
+        <td>U</td>
+        <td>..-</td>
+      </tr>
+      <tr>
+        <td>V</td>
+        <td>...-</td>
+        <td>W</td>
+        <td>.--</td>
+        <td>X</td>
+        <td>-..-</td>
+      </tr>
+      <tr>
+        <td>Y</td>
+        <td>-.--</td>
+        <td>Z</td>
+        <td>--.</td>
+        <td></td>
+        <td></td>
+      </tr>
     </table>
 
-    <br/><h4>NUMBERS</h4>
-    <table style="width: 70%; margin-left: 6cm;" class="table table-striped table-bordered table-condensed">         <!--bootstrap-->
-        <tr>
-            <td>0</td>
-            <td>-----</td>
-            <td>1</td>
-            <td>.----</td>
-            <td>2</td>
-            <td>..---</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>...--</td>
-            <td>4</td>
-            <td>....-</td>
-            <td>5</td>
-            <td>.....</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>-....</td>
-            <td>7</td>
-            <td>--...</td>
-            <td>8</td>
-            <td>---..</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>----.</td>
-        </tr>
+    <br />
+    <h4>NUMBERS</h4>
+    <table
+      style="width: 70%; margin-left: 6cm"
+      class="table table-striped table-bordered table-condensed"
+    >
+      <!--bootstrap-->
+      <tr>
+        <td>0</td>
+        <td>-----</td>
+        <td>1</td>
+        <td>.----</td>
+        <td>2</td>
+        <td>..---</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>...--</td>
+        <td>4</td>
+        <td>....-</td>
+        <td>5</td>
+        <td>.....</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>-....</td>
+        <td>7</td>
+        <td>--...</td>
+        <td>8</td>
+        <td>---..</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>----.</td>
+      </tr>
     </table>
-    <br/><h4>PUNCTUATIONS</h4>
-    <table style="width: 70%; margin-left: 6cm;" class="table table-striped table-bordered table-condensed">         <!--bootstrap-->
-        <tr>
-            <td>.</td>
-            <td>.-.-.-</td>
-            <td>,</td>
-            <td>--..--</td>
-            <td>?</td>
-            <td>..--..</td>
-        </tr>
-        <tr>
-            <td>'</td>
-            <td>.----.</td>
-            <td>!</td>
-            <td>-.-.--</td>
-            <td>/</td>
-            <td>-..-.</td>
-        </tr>
-        <tr>
-            <td>(</td>
-            <td>-.--.</td>
-            <td>)</td>
-            <td>-.--.-</td>
-            <td>&</td>
-            <td>.-...</td>
-        </tr>
-        <tr>
-            <td>:</td>
-            <td>---...</td>
-            <td>;</td>
-            <td>-.-.-.</td>
-            <td>=</td>
-            <td>-...-</td>
-        </tr>
-        <tr>
-            <td>+</td>
-            <td>.-.-.</td>
-            <td>-</td>
-            <td>-....-</td>
-            <td>_</td>
-            <td>..--.-</td>
-        </tr>
-        <tr>
-            <td>"</td>
-            <td>.-..-.</td>
-            <td>$</td>
-            <td>...-..-</td>
-            <td>@</td>
-            <td>.--.-.</td>
-        </tr>
-        <tr>
-            <td>¿</td>
-            <td>..-.-</td>
-            <td>¡</td>
-            <td>..-.-</td>
-        </tr>
-    </table><br/><br/>
+    <br />
+    <h4>PUNCTUATIONS</h4>
+    <table
+      style="width: 70%; margin-left: 6cm"
+      class="table table-striped table-bordered table-condensed"
+    >
+      <!--bootstrap-->
+      <tr>
+        <td>.</td>
+        <td>.-.-.-</td>
+        <td>,</td>
+        <td>--..--</td>
+        <td>?</td>
+        <td>..--..</td>
+      </tr>
+      <tr>
+        <td>'</td>
+        <td>.----.</td>
+        <td>!</td>
+        <td>-.-.--</td>
+        <td>/</td>
+        <td>-..-.</td>
+      </tr>
+      <tr>
+        <td>(</td>
+        <td>-.--.</td>
+        <td>)</td>
+        <td>-.--.-</td>
+        <td>&</td>
+        <td>.-...</td>
+      </tr>
+      <tr>
+        <td>:</td>
+        <td>---...</td>
+        <td>;</td>
+        <td>-.-.-.</td>
+        <td>=</td>
+        <td>-...-</td>
+      </tr>
+      <tr>
+        <td>+</td>
+        <td>.-.-.</td>
+        <td>-</td>
+        <td>-....-</td>
+        <td>_</td>
+        <td>..--.-</td>
+      </tr>
+      <tr>
+        <td>"</td>
+        <td>.-..-.</td>
+        <td>$</td>
+        <td>...-..-</td>
+        <td>@</td>
+        <td>.--.-.</td>
+      </tr>
+      <tr>
+        <td>¿</td>
+        <td>..-.-</td>
+        <td>¡</td>
+        <td>..-.-</td>
+      </tr>
+    </table>
+    <br /><br />
     <div class="grid-container">
-        <div class="au">About Us</div>
-        <div class="pp">Privacy Policy</div>
-     </div>
-     <div class="copy"><h5>Morse Code Translator &copy; 2023</h5></div>
-<script src="index.js"></script>
-</body>
+      <div class="au">About Us</div>
+      <div class="pp">Privacy Policy</div>
+    </div>
+    <div class="copy"><h5>Morse Code Translator &copy; 2023</h5></div>
+    <script src="index.js"></script>
+  </body>
 </html>
