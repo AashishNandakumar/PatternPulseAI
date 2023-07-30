@@ -1,6 +1,6 @@
 const brain = require("brain.js");
 const fs = require("fs");
-
+var mysql = require("mysql");
 /*  Traditional way of reading data from a file
     const fs = require("fs");
 
@@ -49,6 +49,23 @@ const fs = require("fs");
 
     main();
 */
+
+// * Connect to mysql
+
+const connectToMySql = () => {
+  var con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    port: "3307",
+    password: "Sh@dow4580",
+  });
+
+  con.connect(function (err) {
+    if (err) throw err;
+    else console.log("Connection successfull");
+  });
+};
+
 function readTrainingData(filename) {
   try {
     const jsonData = fs.readFileSync(filename, "utf-8");
@@ -185,4 +202,6 @@ function main() {
   callNeural("-. ---");
 }
 
-main();
+// main();
+
+connectToMySql();
