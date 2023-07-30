@@ -4,8 +4,8 @@ var mysql = require("mysql");
 const { connection, createTable, createDatabase } = require("./database");
 const { log, error } = require("console");
 
-// create random words, pass it onto the (words->morse) converter, push the results into dataset
-const randomWords = (length) => {
+// * create random words
+function randomWords(length) {
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   let res = "";
@@ -15,9 +15,10 @@ const randomWords = (length) => {
   }
 
   return res;
-};
+}
 
-const textToMorse = (text) => {
+// * convert the text to morse code
+function textToMorse(text) {
   const morseCodeDictionary = {
     A: ".-",
     B: "-...",
@@ -58,9 +59,10 @@ const textToMorse = (text) => {
       .join(" ")
   );
   return morseCodeArray.join(" / ");
-};
+}
 
-const getTrainingData = () => {
+// * obtain training data to store in database as a input-output pair
+function getTrainingData() {
   let rand = "";
   let range = Math.floor(Math.random() * 5) + 1;
   // currently let us train over 1 word
@@ -77,7 +79,7 @@ const getTrainingData = () => {
   }
   const randMorse = textToMorse(rand);
   return { input: randMorse, output: rand };
-};
+}
 
 // * Train the neural network by loading a pre-trained NN
 function trainNN(newTrainingData) {
@@ -96,6 +98,7 @@ function trainNN(newTrainingData) {
   storeOfflineNeuralNetwork(trainedModel);
 }
 
+// * call the neural network and run it with morsecode as an input
 const callNeural = (morseCode1) => {
   // get the trained NN
   const trainedModel = getOfflineNeuralNetwork();
@@ -135,7 +138,7 @@ function getOfflineNeuralNetwork() {
   }
 }
 
-// * for mysql get and set methods
+// * mysql insert data method
 function insertData(data) {
   const sql = `INSERT IGNORE INTO training_data (input, output) VALUES ?`;
 
@@ -147,6 +150,7 @@ function insertData(data) {
   });
 }
 
+// * mysql get data method
 function fetchData(callback) {
   const sql = `SELECT input, output FROM training_data`;
 
@@ -166,25 +170,29 @@ function fetchData(callback) {
   });
 }
 
+// * gather data into trainingdata[]
+function insertTrainingData(no) {
+  const trainingData = [];
+  for (let i = 0; i < no; i++) {
+    let data = getTrainingData();
+    trainingData.push(data);
+  }
+
+  insertData(trainingData);
+}
+
 function main() {
+  // * run it the first time u are creating the neural network
   // createDatabase();
   // createTable();
 
-  // * Inserting data into sql
-  // const trainingData = [];
-
-  // for (let i = 0; i < 50000; i++) {
-  //   let data = getTrainingData();
-  //   trainingData.push(data);
-  // }
-  // insertData(trainingData);
+  // * Inserting specific no of data into sql
+  insertTrainingData(5000);
 
   // * fetch the training data from sql and push it to the neural network
   fetchData((err, data) => {
     if (err) console.error("Error fetchng data ", err);
     else {
-      // console.log("training data: ", data);
-
       trainNN(data);
 
       // test it on some dummy morse code
