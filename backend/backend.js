@@ -59,41 +59,7 @@ function readTrainingData(filename) {
   }
 }
 
-// scale down function
-// function convertToBinary(morseCode) {
-//   return morseCode.split("").map((char) => (char === "." ? 1 : 0));
-// }
-
-// function writeTrainingData(filename, data) {
-//   try {
-//     // // convert the dot and dashes into 0 or 1
-//     // const convertedData = data.map((entry) => ({
-//     //   input: convertToBinary(entry.input),
-//     //   output: entry.output,
-//     // }));
-
-//     const jsonData = JSON.stringify(data, null, 2);
-//     fs.writeFileSync(filename, jsonData, "utf-8");
-//     console.log("Success write");
-//   } catch (err) {
-//     console.error("Error ", err);
-//   }
-// }
-
-// const oldData = readtraingData("trainOnThis.Json");
-
-// const newData = {
-//   input: "... --- ...",
-//   output: "SOS",
-// };
-
-// oldData.push(newData);
-
-// writeTrainingData("trainOnThis.Json", oldData);
-
-// console.log(readtraingData("trainOnThis.Json"));
-
-// create random words, pass it onto the words->morse converter, push the results into dataset
+// create random words, pass it onto the (words->morse) converter, push the results into dataset
 const randomWords = (length) => {
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -107,8 +73,6 @@ const randomWords = (length) => {
 };
 
 const textToMorse = (text) => {
-  // Step 1: Define the Morse Code Dictionary
-
   const morseCodeDictionary = {
     A: ".-",
     B: "-...",
@@ -137,27 +101,19 @@ const textToMorse = (text) => {
     Y: "-.--",
     Z: "--..",
   };
-  // Step 2: Handle Capitalization and Spaces
 
   text = text.toUpperCase();
   // text = text.replace(/\s/g, "/");
-  // console.log(text);
 
-  // Step 3: Convert the Text to Morse Code
   const words = text.split(" ");
-  // console.log(words);
   const morseCodeArray = words.map((word) =>
     word
       .split("")
       .map((char) => morseCodeDictionary[char] || char)
       .join(" ")
   );
-  // console.log(morseCodeArray);
-  // Step 4: Return the Morse Code
   return morseCodeArray.join(" / ");
 };
-
-// console.log(textToMorse("Hello World"));
 
 const getTrainingData = () => {
   let rand = "";
@@ -167,7 +123,7 @@ const getTrainingData = () => {
   for (let i = 0; i < range; i++) {
     let wordLength = Math.floor(Math.random() * 10) + 1;
 
-    // 1 word with length 2
+    // 1 word with length 2(2 characters)
     wordLength = 2;
     rand += randomWords(wordLength);
     if (i + 1 < range) {
@@ -216,6 +172,7 @@ const callNeural = (morseCode1) => {
 };
 
 function main() {
+  // * Increase trainning dataset
   // for (let i = 0; i < 1000; i++) {
   //   let val = setTrainingData();
   //   if (val) {
